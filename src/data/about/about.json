@@ -1,0 +1,49 @@
+{
+    "hero": {
+        "image": {
+            "src": "../../images/about/sobre-blinds.jpg",
+            "alt": ""
+        }
+    },
+    "description": {
+        "title": "BLINDS COMPANY BY PROYESOL, UNA COMPAÑIA FAMILIAR CON MAS DE 25 AÑOS",
+        "description": "Bienvenido al mundo inspirador de Blinds Company: un mundo de soluciones en el que la belleza y la funcionalidad se unen, para crear e instalar la solución perfecta de cobertura solar. Desde su creación en 2012 Blinds basó sus colecciones y proyectos inspirados en el arte, la arquitectura, el diseño, la tecnología y la naturaleza."
+    },
+    "infoSection": {
+        "title": "Vertientes Blinds Company",
+        "blocks": [
+            {
+                "title": "Los Inicios",
+                "description": "Paolo Chinaglia encantado de República Dominicana después de unas vacaciones, vino desde Italia queriendo crear algo nuevo, buscando inspiración en su país natal Italia, donde vio una tienda de venecianas que, luego de una conversación lo invitaron a ver una compañía que fabricaba maquinas para hacer venecianas en Milan. Con la compra de la maquina y materiales de 7 colores es que empezó Proyesol. Sin meses de ventas por la falta del español seguía entusiasmado con su producto, hasta que un día, Proyesol hizo su primer trabajo y no tardo para que la voz se corriera. Así empezó el mercado de las cortinas!",
+                "img": {
+                    "src": "../../images/about/Inicios.jpeg",
+                    "alt": ""
+                }
+            },
+            {
+                "title": "De camino a un crecimiento sostenible",
+                "description": "Nuestros planes para el futuro se basan en la tecnología y productos sostenibles, creemos en que las cortinas ecológicas contribuyen a una red inspiradora para nuestro equipo, clientes, proveedores y el mundo que nos rodea. Nuestra misión parte de ser el mejor, y lo mejor para el mundo. Los transportes eléctricos, la energía no contaminante, apoyo a comunidades sostenibles, la acción por el clima y el reúso, entre otros, seguir cumpliendo estas acciones son formas de nuestro crecimiento sostenible. ¡TÚ TAMBIÉN PUEDES HACERLO!",
+                "img": {
+                    "src": "../../images/about/De_camino_a_un_crecimiento_sostenible.jpg",
+                    "alt": ""
+                }
+            },
+            {
+                "title": "Fabricación",
+                "description": "En todo lo que hacemos, creemos en el desafío de una nueva calidad con los avances tecnológicos, la forma en que desafiamos la calidad empieza con la fabricación utilizando maquinarias especificas. empezando desde maquinas de cortes ultrasónico y termo empates, maquinas para una medida y corte preciso, hasta finalmente maquinas para probar la calidad del producto terminado, sencillamente fabricamos soluciones solares únicas.",
+                "img": {
+                    "src": "../../images/about/Fabricacion.jpeg",
+                    "alt": ""
+                }
+            },
+            {
+                "title": "Gente Apasionada",
+                "description": "Nuestros ojos siempre están puestos en el futuro, el diseño y la moda, lo que hace que las personas apasionadas y enérgicas se sientan como en casa en Blinds Company. Como equipo, estamos constantemente en movimiento mientras nos divertimos haciendo lo que hacemos.",
+                "img": {
+                    "src": "../../images/about/gente-apasionada.jpg",
+                    "alt": ""
+                }
+            }
+        ]
+    }
+}

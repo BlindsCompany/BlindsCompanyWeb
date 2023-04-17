@@ -1,0 +1,29 @@
+{
+    "hero": {
+        "title": "Vive la belleza",
+        "subtitle": "Productos inspirados en la Naturaleza",
+        "video": "",
+        "fallbackImage": {
+            "src": "",
+            "alt": ""
+        }
+    },
+    "productsSection": {
+        "title": "Un mundo de soluciones solares"
+    },
+    "sideBySide": {
+        "title": "Comfort y conveniencia",
+        "card": {
+            "title": "Blinds Company",
+            "description": "Bienvenido al mundo inspirador de Blinds Company: un mundo de soluciones solares en el que la belleza y la funcionalidad se unen para crear e instalar la solución perfecta de cobertura solar. Desde su creación en 2012, Blinds basó sus colecciones y proyectos inspirados en el arte, la arquitectura, el diseño, la tecnología y la naturaleza.",
+            "image": {
+                "src": "../../images/home/supperposedImage.jpg",
+                "alt": ""
+            }
+        }
+    },
+    "catalogs": {
+        "title": "Busca inspiracion en nuestros catálogos",
+        "downloadCtaText": "Descargar"
+    }
+}
