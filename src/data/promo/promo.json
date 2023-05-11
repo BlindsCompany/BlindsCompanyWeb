@@ -1,0 +1,62 @@
+{
+  "header":{
+    "items":[
+      "Empates Termo-soldados",
+      "Instalación con Hilti",
+      "Corte Ultrasónico",
+      "Máquina de medida milimétrica",
+      "Componentes Modulares",
+      "Productos Holandeses"
+    ] 
+  },
+
+  "steps":[
+    {
+      "image":"../../images/promo/stepIcons/phone.png",
+      "title":"1. CONTACTANOS",
+      "description":"Llamanos, escríbenos via mail o whatsapp y te asesoraremos en el proceso."
+    },
+    {
+      "image":"../../images/promo/stepIcons/pencil.png",
+      "title":"2. COTIZA TUS MEDIDAS",
+      "description":"Proporcione tus medidas o agendemos una visita para medir y cotizar tus medidas."
+    },
+    {
+      "image":"../../images/promo/stepIcons/puzzle.png",
+      "title":"3. FABRICACIÓN",
+      "description":"De aprobar el presupuesto, fabricamos tus productos dentro de 5 a 7 dias laborales."
+    },
+    {
+      "image":"../../images/promo/stepIcons/tools.png",
+      "title":"4. INSTALACIÓN",
+      "description":"Instalaremos tus productos pendientes a cada detalle, en perfecto orden y limpieza"
+    }
+  ],
+
+
+  "products":{
+
+    "zebra":{
+      "heroTitle":"CORTINAS ZEBRA",
+      "heroBanner":"../../images/promo/zebra/banner.jpg",
+      "content":[
+        {
+          "image":"../../images/promo/zebra/content/1.jpg",
+          "title":"CREA PRIVACIDAD Y LUZ DESEADA",
+          "description":"Crea cualquier luz, vista y privacidad que desees con las cortinas zebra. Gracias al tejido de doble capa con rayas transparentes y no transparentes puede inclinar sus persianas en cualquier ángulo para personalizar su nivel de privacidad y control de la luz. las cortinas zebra están disponibles en docenas de opciones de filtrado de luz y oscurecimiento (black out)."
+        },
+        {
+          "image":"../../images/promo/zebra/content/2.jpg",
+          "title":"CORTINAS ZEBRAS TRASLÚCIDAS",
+          "description":"A pesar de no tener las franjas con el sistema black out, las cortinas zebras translucidas no son inferiores ya que manejan bien el control de luz y privacidad mas dan un toque unico y elegante. Son mas populares por la forma en que difunden la luz y sus variedades en cuanto a estilo"
+        },
+        {
+          "image":"../../images/promo/zebra/content/3.jpg",
+          "title":"CORTINAS ZEBRAS BLACK OUT",
+          "description":"Las bandas cerradas son mas opacas con el sistema blackout y son mas anchas que las transparentes para lograr un mejor control de la luz. Sin embargo, dado que las pantallas de cebra están hechas con franjas translúcidas alternas, no permitirán un bloqueo total de la luz."
+        }
+      ]
+    }
+
+  }
+}

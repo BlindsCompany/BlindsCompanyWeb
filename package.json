@@ -13,9 +13,17 @@
         "clean": "gatsby clean",
         "build:css": "tailwindcss -i ./src/styles/tailwind/base.css -o ./src/styles/tailwind/build.css",
         "watch:css": "tailwindcss -i ./src/styles/tailwind/base.css -o ./src/styles/tailwind/build.css --watch",
-        "dev": "NODE_ENV=development concurrently \"yarn dev:gatsby\" \"yarn watch:css\""
+        "dev": "NODE_ENV=development concurrently \"yarn dev:gatsby\" \"yarn watch:css\"",
+        "dev:windows": "SET NODE_ENV=development concurrently \"yarn dev:gatsby\" \"yarn watch:css\""
     },
     "dependencies": {
+        "@emotion/react": "^11.11.0",
+        "@emotion/styled": "^11.11.0",
+        "@fortawesome/fontawesome-free": "^6.4.0",
+        "@fortawesome/fontawesome-svg-core": "^6.4.0",
+        "@fortawesome/free-brands-svg-icons": "^6.4.0",
+        "@fortawesome/free-solid-svg-icons": "^6.4.0",
+        "@fortawesome/react-fontawesome": "^0.2.0",
         "autoprefixer": "^10.4.8",
         "browser-monads": "^1.0.0",
         "classnames": "^2.3.1",
@@ -31,7 +39,7 @@
         "gatsby-plugin-sitemap": "^5.21.0",
         "gatsby-source-filesystem": "^4.21.0",
         "gatsby-transformer-json": "^4.21.0",
-        "gatsby-transformer-sharp": "^4.21.0",
+        "gatsby-transformer-sharp": "^4.25.0",
         "postcss": "^8.4.16",
         "preact": "^10.10.6",
         "preact-render-to-string": "^5.2.2",

@@ -4,10 +4,11 @@ import React from 'react';
 import BlindsCarousel from '../components/carousel/Carousel';
 import Seo from '../components/Seo';
 import Link from '../components/util/Link';
+import Layout from '../templates/Layout';
 
 const Proyectos = ({ data: { projectsJson, allProjectsListJson } }) => {
     return (
-        <>
+        <Layout>
             <Seo title="Proyectos" />
             <div className="pt-base">
                 <div className="section-title-container">
@@ -55,7 +56,7 @@ const Proyectos = ({ data: { projectsJson, allProjectsListJson } }) => {
                     })}
                 </BlindsCarousel>
             </section>
-        </>
+        </Layout>
     );
 };
 

@@ -6,7 +6,7 @@ import ContactForm from '../components/contactForm/ContactForm';
 import { useStaticQuery, graphql } from 'gatsby';
 import { FaPhone, FaWhatsapp, FaMapMarkerAlt } from 'react-icons/fa';
 import { MdMail } from 'react-icons/md';
-
+import Layout from '../templates/Layout';
 const Contactanos = () => {
     const {
         globalJson: { contact },
@@ -65,7 +65,7 @@ const Contactanos = () => {
     ];
 
     return (
-        <>
+        <Layout>
             <Seo title="Contacto" />
             <section className="pt-4">
                 <div className="section-title-container lg:w-4/5">
@@ -96,7 +96,7 @@ const Contactanos = () => {
                     <Newsletter showText />
                 </div>
             </section>
-        </>
+        </Layout>
     );
 };
 
