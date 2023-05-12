@@ -1,5 +1,4 @@
 import React from 'react';
-import PromoHeader from '../components/Promo/promoHeader/PromoHeader';
 import PromoPage from '../components/Promo/promoPage/PromoPage';
 import { useStaticQuery, graphql } from 'gatsby';
 const PromoZebra = () =>{

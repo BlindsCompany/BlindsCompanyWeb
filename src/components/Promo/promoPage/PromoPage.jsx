@@ -6,6 +6,7 @@ import PromoSteps from "../promoSteps/PromoSteps";
 import PromoContent from "../PromoContent/PromoContent";
 import PromoContact from "../PromoContact/PromoContact";
 import PromoFooter from "../PromoFooter/PromoFooter";
+import PromoCarousel from "../PromoCarousel/PromoCarousel";
 
 const PromoPage = ({ product }) => {
   return (
@@ -14,6 +15,7 @@ const PromoPage = ({ product }) => {
       <PromoHero product={product} />
       <PromoSteps />
       <PromoContent product={product}/>
+      <PromoCarousel/>
       <PromoContact product={product}/>
       <PromoFooter/>
     </Fragment>

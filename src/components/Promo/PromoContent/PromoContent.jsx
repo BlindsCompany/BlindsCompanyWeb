@@ -1,10 +1,8 @@
 import React from "react";
 import { Container } from "../SharedStyles";
-import { useStaticQuery, graphql } from 'gatsby';
 import { GatsbyImage } from "gatsby-plugin-image";
 
 const PromoContent = ({ product }) => {
-  console.log(product.content);
   return (
     <Container>
       {

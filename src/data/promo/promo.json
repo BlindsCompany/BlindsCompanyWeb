@@ -11,6 +11,18 @@
     ] 
   },
 
+  "gallery":[
+    {
+      "path":"../../images/promo/gallery/1.jpg"     
+    },
+    {
+      "path":"../../images/promo/gallery/2.jpg"     
+    },
+    {
+      "path":"../../images/promo/gallery/3.jpg"     
+    }
+  ],
+
   "steps":[
     {
       "image":"../../images/promo/stepIcons/phone.png",
@@ -56,6 +68,28 @@
           "image":"../../images/promo/zebra/content/3.jpg",
           "title":"CORTINAS ZEBRAS BLACK OUT",
           "description":"Las bandas cerradas son mas opacas con el sistema blackout y son mas anchas que las transparentes para lograr un mejor control de la luz. Sin embargo, dado que las pantallas de cebra están hechas con franjas translúcidas alternas, no permitirán un bloqueo total de la luz."
+        }
+      ]
+    },
+    "enrollables":{
+      "heroTitle":"CORTINAS ENROLLABLES",
+      "heroBanner":"../../images/promo/enrollables/banner.jpg",
+      "contactPrompt":"QUIERES COMPRAR CORTINAS ENROLLABLES?",
+      "content":[
+        {
+          "image":"../../images/promo/enrollables/content/1.jpg",
+          "title":"FAVORITA MUNDIAL DE TODOS LOS TIEMPOS",
+          "description":"Con sus infinitas posibilidades en cuanto a estilo y funcionalidad, las cortinas roller son el producto de sombreado más popular del mundo. Las cortinas enrollables, también conocidas como cortinas roller, tienen componentes modulares diseñados para ofrecer una excelente óptica y un manejo fácil. Esto hace que este sistema sea el más popular y práctico en cualquier espacio."
+        },
+        {
+          "image":"../../images/promo/enrollables/content/2.jpg",
+          "title":"CORTINA ENROLLABLE TRANSLUCIDA",
+          "description":"Una cortina enrollable traslúcida, cuando está cerrada, difunde suavemente la luz por toda la habitación, proporcionando un brillo suave y cálido. Para encontrar el equilibrio entre la visibilidad y el bloqueo de la luz, debemos basarnos en el porcentaje de apertura de la tela, también conocido como opacidad. Este porcentaje se refiere a la cantidad de luz que deja pasar la cortina. Cuanto menor sea el porcentaje, más luz bloqueará la cortina y menos visibilidad ofrecerá. Las opciones oscilan entre el 1%, 3%, 5% y 10%, siendo el 5% la elección más popular de los clientes para cortinas enrollables en Santo Domingo."
+        },
+        {
+          "image":"../../images/promo/enrollables/content/3.jpg",
+          "title":"CORTINAS ENROLLABLES BLACK OUT",
+          "description":"Para lograr una oscuridad total, necesitarás una cortina enrollable tipo blackout hecha de capas de vinilo y fibra de vidrio, las cuales bloquean por completo la entrada de luz. Estas cortinas son ideales para salas multimedia, estudios, dormitorios u otras áreas donde se desea una oscuridad total."
         }
       ]
     }

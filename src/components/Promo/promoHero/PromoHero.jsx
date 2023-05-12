@@ -1,17 +1,16 @@
 import React from "react";
 import { Container } from "../SharedStyles";
-import { ImgWrapper, Img, ContentWrapper, Title, BlackButton, CreamButton } from "./PromoHeroStyles";
+import { ImgWrapper, ContentWrapper, Title, BlackButton, CreamButton } from "./PromoHeroStyles";
 import { GatsbyImage } from "gatsby-plugin-image";
 
-import data from '../../../data/promo/promo.json'
 
 const PromoHero = ({ product }) => {
   
   return (
     <Container>
-      <ImgWrapper>
+      <ImgWrapper style={{height:'auto'}}>
         
-        <GatsbyImage image={product.heroBanner.childImageSharp.gatsbyImageData} alt={product.heroTitle} style={{filter:'brightness(80%)'}}/>
+        <GatsbyImage image={product.heroBanner.childImageSharp.gatsbyImageData} alt={product.heroTitle} style={{filter:'brightness(80%)', width:'100%', height:'auto'}}/>
         <ContentWrapper>
           <div>
             <Title>{product.heroTitle}</Title>

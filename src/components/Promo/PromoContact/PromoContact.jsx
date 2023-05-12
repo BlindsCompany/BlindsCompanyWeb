@@ -7,7 +7,6 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const PromoContact = ({ product }) => {
 
-  console.log(product);
 
   return (
     <Container style={{ marginTop: '60px', marginBottom: '80px' }}>

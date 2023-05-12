@@ -15,7 +15,6 @@ import {
 
 import { Container } from '../SharedStyles';
 
-import Title from '../../../images/promo/logo2.png';
 
 const PromoHeader = () => {
   const data = useStaticQuery(graphql`
