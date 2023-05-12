@@ -1,4 +1,5 @@
 {
+  "logo":"../../images/promo/logo2.png",
   "header":{
     "items":[
       "Empates Termo-soldados",
@@ -39,6 +40,7 @@
     "zebra":{
       "heroTitle":"CORTINAS ZEBRA",
       "heroBanner":"../../images/promo/zebra/banner.jpg",
+      "contactPrompt":"QUIERES COMPRAR CORTINAS ZEBRA?",
       "content":[
         {
           "image":"../../images/promo/zebra/content/1.jpg",

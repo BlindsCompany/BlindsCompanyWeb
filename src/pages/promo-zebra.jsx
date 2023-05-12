@@ -15,6 +15,7 @@ const PromoZebra = () =>{
               gatsbyImageData
             }
           }
+          contactPrompt
           content {
             image{
               childImageSharp {

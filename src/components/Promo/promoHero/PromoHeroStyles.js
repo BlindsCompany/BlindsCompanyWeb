@@ -35,6 +35,10 @@ export const BlackButton = styled.button`
   border-radius: 0.25rem;
   width: 238px;
 
+  &:hover {
+    background-color: #333;
+  }
+
 `
 
 export const CreamButton = styled.button`
@@ -46,5 +50,8 @@ export const CreamButton = styled.button`
   padding-bottom: 16px;
   border-radius: 0.375rem;
   width: 238px;
+  &:hover {
+    background-color: #E6DFD9;
+  }
 
 `

@@ -6,8 +6,7 @@ import { GatsbyImage } from "gatsby-plugin-image";
 import data from '../../../data/promo/promo.json'
 
 const PromoHero = ({ product }) => {
-
-  console.log(product);
+  
   return (
     <Container>
       <ImgWrapper>

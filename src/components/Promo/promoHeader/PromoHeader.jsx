@@ -4,7 +4,7 @@ import { Fragment } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faPhone,faCheck, faLocationDot } from '@fortawesome/free-solid-svg-icons';
-
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 import {
   HeaderItems,
@@ -15,12 +15,17 @@ import {
 
 import { Container } from '../SharedStyles';
 
-import Title from '../../../images/logo2.png';
+import Title from '../../../images/promo/logo2.png';
 
 const PromoHeader = () => {
   const data = useStaticQuery(graphql`
     query {
       promoJson {
+        logo{
+          childImageSharp {
+            gatsbyImageData(width:200)
+          }
+        } 
         header {
           items
         }
@@ -57,7 +62,7 @@ const PromoHeader = () => {
               809-535-2954
             </IconText>
           </PhoneNumbersContainer>
-          <img src={Title} style={{width:'200px', height:'auto'}}/>
+          <GatsbyImage image={data.promoJson.logo.childImageSharp.gatsbyImageData} alt={'logo'} />
           <IconText>
             VISITE NUESTRA TIENDA
             <FontAwesomeIcon size='lg' icon={faLocationDot} />
