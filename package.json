@@ -8,7 +8,7 @@
     ],
     "scripts": {
         "dev:gatsby": "gatsby develop -H 0.0.0.0",
-        "build": "NODE_ENV=production yarn build:css && gatsby build",
+        "build": "SET NODE_ENV=production yarn build:css && gatsby build",
         "serve": "gatsby serve",
         "clean": "gatsby clean",
         "build:css": "tailwindcss -i ./src/styles/tailwind/base.css -o ./src/styles/tailwind/build.css",

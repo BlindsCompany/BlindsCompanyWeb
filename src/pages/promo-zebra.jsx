@@ -18,11 +18,18 @@ const PromoZebra = () =>{
           content {
             image{
               childImageSharp {
-                gatsbyImageData(height:360)
+                gatsbyImageData
               }
             }
             title
             description
+          }
+          gallery{
+            path{
+              childImageSharp {
+                gatsbyImageData
+              }
+            } 
           }
         }
       }

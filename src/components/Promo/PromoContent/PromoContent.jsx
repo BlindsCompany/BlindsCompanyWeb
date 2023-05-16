@@ -16,12 +16,12 @@ const PromoContent = ({ product }) => {
                   {cont.title}
                 </h2>
                 <div style={{ fontSize: '18px' }}>
-                  {cont.description}
+                  <div dangerouslySetInnerHTML={{ __html: cont.description }} />
                 </div>
               </div>
 
-              <div>
-                <GatsbyImage image={cont.image.childImageSharp.gatsbyImageData} alt={cont.title} />
+              <div style={{width:'50%'}}>
+                <GatsbyImage image={cont.image.childImageSharp.gatsbyImageData} alt={cont.title} style={{width:'100%', height:'360px', objectFit:'cover' }} />
               </div>
 
             </div>
@@ -29,8 +29,8 @@ const PromoContent = ({ product }) => {
             
             <div style={{ display: 'flex', flexDirection: 'row', marginBottom:'100px' }}>
 
-              <div>
-                <GatsbyImage image={cont.image.childImageSharp.gatsbyImageData} alt={cont.title} />
+              <div style={{width:'50%'}}>
+                <GatsbyImage image={cont.image.childImageSharp.gatsbyImageData} alt={cont.title} style={{width:'100%', height:'360px', objectFit:'cover' }} />
               </div>
 
               <div style={{ width: '50%', display: 'flex', flexDirection: 'column', paddingLeft:'50px' }}>
@@ -38,7 +38,7 @@ const PromoContent = ({ product }) => {
                   {cont.title}
                 </h2>
                 <div style={{ fontSize: '18px' }}>
-                  {cont.description}
+                  <div dangerouslySetInnerHTML={{ __html: cont.description }} />
                 </div>
               </div>
             </div>

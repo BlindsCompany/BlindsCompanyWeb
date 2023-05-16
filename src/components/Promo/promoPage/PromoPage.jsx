@@ -15,7 +15,7 @@ const PromoPage = ({ product }) => {
       <PromoHero product={product} />
       <PromoSteps />
       <PromoContent product={product}/>
-      <PromoCarousel/>
+      <PromoCarousel product={product}/>
       <PromoContact product={product}/>
       <PromoFooter/>
     </Fragment>

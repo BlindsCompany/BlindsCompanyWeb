@@ -11,18 +11,6 @@
     ] 
   },
 
-  "gallery":[
-    {
-      "path":"../../images/promo/gallery/1.jpg"     
-    },
-    {
-      "path":"../../images/promo/gallery/2.jpg"     
-    },
-    {
-      "path":"../../images/promo/gallery/3.jpg"     
-    }
-  ],
-
   "steps":[
     {
       "image":"../../images/promo/stepIcons/phone.png",
@@ -52,7 +40,7 @@
     "zebra":{
       "heroTitle":"CORTINAS ZEBRA",
       "heroBanner":"../../images/promo/zebra/banner.jpg",
-      "contactPrompt":"QUIERES COMPRAR CORTINAS ZEBRA?",
+      "contactPrompt":"¿QUIERES COMPRAR CORTINAS ZEBRA?",
       "content":[
         {
           "image":"../../images/promo/zebra/content/1.jpg",
@@ -69,7 +57,20 @@
           "title":"CORTINAS ZEBRAS BLACK OUT",
           "description":"Las bandas cerradas son mas opacas con el sistema blackout y son mas anchas que las transparentes para lograr un mejor control de la luz. Sin embargo, dado que las pantallas de cebra están hechas con franjas translúcidas alternas, no permitirán un bloqueo total de la luz."
         }
+      ],
+
+      "gallery":[
+        {
+          "path":"../../images/promo/zebra/gallery/1.jpg"     
+        },
+        {
+          "path":"../../images/promo/zebra/gallery/2.jpg"     
+        },
+        {
+          "path":"../../images/promo/zebra/gallery/3.jpg"     
+        }
       ]
+
     },
     "enrollables":{
       "heroTitle":"CORTINAS ENROLLABLES",
@@ -90,6 +91,111 @@
           "image":"../../images/promo/enrollables/content/3.jpg",
           "title":"CORTINAS ENROLLABLES BLACK OUT",
           "description":"Para lograr una oscuridad total, necesitarás una cortina enrollable tipo blackout hecha de capas de vinilo y fibra de vidrio, las cuales bloquean por completo la entrada de luz. Estas cortinas son ideales para salas multimedia, estudios, dormitorios u otras áreas donde se desea una oscuridad total."
+        }
+      ],
+      "gallery":[
+        {
+          "path":"../../images/promo/enrollables/gallery/1.jpg"     
+        },
+        {
+          "path":"../../images/promo/enrollables/gallery/2.jpg"     
+        },
+        {
+          "path":"../../images/promo/enrollables/gallery/3.jpg"     
+        }
+      ]
+    },
+
+    "malla":{
+      "heroTitle":"MALLAS DE SEGURIDAD",
+      "heroBanner":"../../images/promo/malla/banner.jpg",
+      "contactPrompt":"¿QUIERES COMPRAR MALLAS DE SEGURIDAD?",
+      "content":[
+        {
+          "image":"../../images/promo/malla/content/1.jpg",
+          "title":"HAZ TU ESPACIO MÁS SEGURO SIN OBSTRUIR TU VISTA",
+          "description":"¿Tienes niños o mascotas? Los beneficios de las mallas de seguridad son infinitos, evita que los niños o mascotas caigan o incluso que arrojen juguetes u otros objetos que podrían causar daños a un tercero y resiste hasta 240 libras, sin embargo, los hilos de monofilamento de nylon no afectan tu fachada al ser prácticamente invisible. Ideales para ventanas, balcones, escaleras y terraza."
+        },
+        {
+          "image":"../../images/promo/malla/content/2.jpg",
+          "title":"VENTAJAS DE LAS MALLAS DE SEGURIDAD",
+          "description":"<ul><li>• Seguridad para niños: Las redes a prueba de niños brindan tranquilidad a los adultos mientras que los niños permanecen libres de cuidados.</li><li>• Seguridad para mascotas: Aseguran los espacios abiertos que representen una amenaza para sus mascotas.</li><li>• No distorsiona la vista: Nuestras redes no perturban la agradable apariencia de tu vista.</li><li>• Control de plaga: Una solución limpia y eficaz para eliminar las palomas de su hogar u oficina.</li></ul>"
+        }
+      ],
+
+      "gallery":[
+        {
+          "path":"../../images/promo/malla/gallery/1.jpg"     
+        },
+        {
+          "path":"../../images/promo/malla/gallery/2.jpg"     
+        },
+        {
+          "path":"../../images/promo/malla/gallery/3.jpg"     
+        }
+      ]
+
+    },
+    "permas":{
+      "heroTitle":"PERMAS",
+      "heroBanner":"../../images/promo/permas/banner.jpg",
+      "contactPrompt":"¿QUIERES COMPRAR PERMAS?",
+      "content":[
+        {
+          "image":"../../images/promo/permas/content/1.jpg",
+          "title":"CONVIERTE TUS ÁREAS EXTERIORES TAN CÓMODAS COMO TU HOGAR",
+          "description":"La adición de cortinas no solo agrega un hermoso elemento de diseño, sino que también hacen los patios, terrazas gazebos y balcones más habitables y acogedores mientras dispersa el calor y controla los insectos. La privacidad contra vecinos curiosos, la protección contra el viento y el polvo, el bloqueo de los dañinos rayos UV, la protección contra la lluvia y el bajo mantenimiento por su fácil cuidado hacen que las cortinas permas en santo domingo sean tan populares."
+        },
+        {
+          "image":"../../images/promo/permas/content/2.jpg",
+          "title":"TIPOS DE CORTINAS PERMAS",
+          "description":"<ul><li>Cortina Perma con guías: Utiliza guías de acero para mantener la tensión de la tela a diferentes alturas y hace su funcionamiento más cómodo al no tener que engancharlas al piso o pared</li><li>Cortina Perma con Ganchos: Las permas con gancho son muy resistentes a los fuertes vientos una vez enganchada, sin embargo, no se pueden dejar semiabiertas ya que la brisa las mueve y puede golpear algo o alguien</li></ul><p>Ambas con mecanismos robustos y sistema de accionamiento (manivela o motorizado).</p>"
+        }
+      ],
+
+      "gallery":[
+        {
+          "path":"../../images/promo/permas/gallery/1.jpg"     
+        },
+        {
+          "path":"../../images/promo/permas/gallery/2.jpg"     
+        },
+        {
+          "path":"../../images/promo/permas/gallery/3.jpg"     
+        }
+      ]
+    },
+    "toldo":{
+      "heroTitle":"TOLDO RETRACTIL",
+      "heroBanner":"../../images/promo/toldo/banner.jpg",
+      "contactPrompt":"¿QUIERES COMPRAR TOLDOS?",
+      "content":[
+        {
+          "image":"../../images/promo/toldo/content/1.jpg",
+          "title":"EXTIENDE TU ESPACIO DE CONFORT",
+          "description":"<p>La instalación de un toldo retráctil proporciona la sombra y el aspecto para mantener tu espacio exterior más cómodo para disfrutar mientras protegen de los rayos UV y brindan confort térmico. No tener toldo retráctil puede hacer de una terraza o un patio completamente inutilizables, pero a veces también solo quieres dejar entrar el sol. Ahí es donde brilla el toldo retráctil: cuando no los necesites, simplemente guárdalos. <br/><br/> La temperatura y los repentinos cambios climáticos hacen que los toldos en santo domingo sean tan populares.</p>"
+        },
+        {
+          "image":"../../images/promo/toldo/content/2.jpg",
+          "title":"TOLDO MODERNO RETRÁCTIL",
+          "description":"Inclina desde 0° a 90° con una salida de hasta 3.60m. Crean ambientes llenos de personalidad, con posibilidades de automatización y sensores de sol y viento para una automatización perfecta. Además, los toldos retráctiles no interrumpirán el diseño de su espacio al aire libre. Cuando se extiende, es una adición atractiva. Cuando no está en uso, el toldo se oculta en una forma elegante."
+        },
+        {
+          "image":"../../images/promo/toldo/content/3.jpg",
+          "title":"TOLDO TRADICIONAL RETRÁCTIL",
+          "description":"Gracias a la forma de su brazo puede modificar el ángulo de inclinación hasta una posición muy cercana a la verticalidad total. Por lo que los hacen llamar los toldos para ventanas y se adapta particularmente bien entre paredes. Con la posibilidad de adaptar un cofre en la parte superior para una mejor estética y protección de la tela. "
+        }
+      ],
+
+      "gallery":[
+        {
+          "path":"../../images/promo/toldo/gallery/1.jpg"     
+        },
+        {
+          "path":"../../images/promo/toldo/gallery/2.jpg"     
+        },
+        {
+          "path":"../../images/promo/toldo/gallery/3.jpg"     
         }
       ]
     }

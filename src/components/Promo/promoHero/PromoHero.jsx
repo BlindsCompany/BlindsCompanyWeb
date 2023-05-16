@@ -10,7 +10,7 @@ const PromoHero = ({ product }) => {
     <Container>
       <ImgWrapper style={{height:'auto'}}>
         
-        <GatsbyImage image={product.heroBanner.childImageSharp.gatsbyImageData} alt={product.heroTitle} style={{filter:'brightness(80%)', width:'100%', height:'auto'}}/>
+        <GatsbyImage image={product.heroBanner.childImageSharp.gatsbyImageData} alt={product.heroTitle} style={{filter:'brightness(80%)', width:'100%', height:'725px', objectFit:'cover'}}/>
         <ContentWrapper>
           <div>
             <Title>{product.heroTitle}</Title>
