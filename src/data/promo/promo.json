@@ -70,7 +70,6 @@
           "path":"../../images/promo/zebra/gallery/3.jpg"     
         }
       ]
-
     },
     "enrollables":{
       "heroTitle":"CORTINAS ENROLLABLES",
@@ -196,6 +195,64 @@
         },
         {
           "path":"../../images/promo/toldo/gallery/3.jpg"     
+        }
+      ]
+    },
+    "shutters":{
+      "heroTitle":"SHUTTER",
+      "heroBanner":"../../images/promo/shutters/banner.jpg",
+      "contactPrompt":"¿QUIERES COMPRAR SHUTTERS?",
+      "content":[
+        {
+          "image":"../../images/promo/shutters/content/1.jpg",
+          "title":"SEGURIDAD SIN MOLESTIA",
+          "description":"Confort acústico, confort térmico, seguridad antibandalo y ciclónica. Los shutters son una de las inversiones más importantes para garantizar que el interior de un hogar o que un negocio permanezca protegido contra las tormentas destructivas. Por las altas tasas de criminalidad, altos niveles de decibeles y temporadas ciclónicas es que los shutters en Santo Domingo y Republica Dominicana se han vuelto tan popular. "
+        },
+        {
+          "image":"../../images/promo/shutters/content/2.jpg",
+          "title":"BENEFICIOS EXTRA DE LOS SHUTTERS",
+          "description":"<p>Valoran tu hogar: Cada mejora de su hogar es una inversión, y las mejoras estratégicas pueden generar potencialmente un retorno de la inversión si alguna vez vende su propiedad.<br/> <br/>Pueden reducir el costo del seguro: Todos queremos reducir los costos anuales y la instalación shutters en su propiedad podría ayudar a reducir los gastos de seguro, Esto dependerá de que la compañia y el plan.</p>"
+        },
+        {
+          "image":"../../images/promo/shutters/content/3.jpg",
+          "title":"MÁS BENEFICIOS",
+          "description":"Bajo mantenimiento y fácil uso: Los shutter son un accesorio permanente en el hogar por su larga vida útil y ofrecen facilidad de operación y protección."
+        }
+      ],
+
+      "gallery":[
+        {
+          "path":"../../images/promo/shutters/gallery/1.jpg"     
+        },
+        {
+          "path":"../../images/promo/shutters/gallery/2.jpg"     
+        }
+      ]
+
+    },
+    "palilleria":{
+      "heroTitle":"PALILLERIA",
+      "heroBanner":"../../images/promo/palilleria/banner.jpg",
+      "contactPrompt":"¿QUIERES COMPRAR PALILLERIA?",
+      "content":[
+        {
+          "image":"../../images/promo/palilleria/content/1.jpg",
+          "title":"CREA PRIVACIDAD Y LUZ DESEADA",
+          "description":"En la calurosa Republica Dominicana muchas personas pierden el entusiasmo de pasar tiempo al aire libre porque el calor es demasiado. Los toldos palilleros no solo crean un hermoso refugio protegido del sol, también expande tu espacio útil al aire libre donde las familias y los amigos pueden relajarse y disfrutar. Por esto la palilleria se ha convertido en el compañero perfecto de las terrazas y jardines y la solución contra el sol preferida por los diseñadores."
+        },
+        {
+          "image":"../../images/promo/palilleria/content/2.jpg",
+          "title":"CORTINAS ZEBRAS TRASLÚCIDAS",
+          "description":"Las palillerias constan de tres componentes esenciales: Una estructura de pérgola, tela de lona o screen, y una soga o motor para el manejo. Todos los componentes trabajan juntos para crear un toldo palillero fácil de operar. Las estructuras se adhieren y descansan sobre pisos o paredes exteriores de no tener una estructura previa."
+        }
+      ],
+
+      "gallery":[
+        {
+          "path":"../../images/promo/palilleria/gallery/1.jpg"     
+        },
+        {
+          "path":"../../images/promo/palilleria/gallery/2.jpg"     
         }
       ]
     }

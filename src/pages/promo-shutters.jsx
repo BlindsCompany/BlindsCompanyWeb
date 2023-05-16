@@ -1,13 +1,13 @@
 import React from 'react';
 import PromoPage from '../components/Promo/promoPage/PromoPage';
 import { useStaticQuery, graphql } from 'gatsby';
-const PromoPalilleria = () =>{
+const PromoShutters = () =>{
 
   const data = useStaticQuery(graphql`
   query {
     promoJson {
       products {
-        palilleria {
+        shutters {
           heroTitle
           heroBanner{
             childImageSharp {
@@ -40,8 +40,8 @@ const PromoPalilleria = () =>{
 
 
   return (
-    <PromoPage product={data.promoJson.products.palilleria}/>
+    <PromoPage product={data.promoJson.products.shutters}/>
 );
 }
 
-export default PromoPalilleria;
+export default PromoShutters;
