@@ -12,6 +12,9 @@ const PromoFooter = () => {
   const data = useStaticQuery(graphql`
     query {
       promoJson {
+        whatsappLink
+        facebookLink
+        instagramLink
         logo{
           childImageSharp {
             gatsbyImageData(width:200)
@@ -21,10 +24,30 @@ const PromoFooter = () => {
     }
   `);
 
+  const whatsappLink = data.promoJson.whatsappLink;
+
+  const instagramLink = data.promoJson.instagramLink;
+
+  const facebookLink = data.promoJson.facebookLink;
+
+
+  const handleWhatsappClick = () => {
+    window.open(whatsappLink, '_blank');
+  };
+
+  const handleInstagramClick = () => {
+    window.open(instagramLink, '_blank');
+  };
+
+  const handleFacebookClick = () => {
+    window.open(facebookLink, '_blank');
+  };
+
+
 
 
   return (
-    <div style={{ backgroundColor: '#d5cec7', color: '#292b2c', paddingTop: '48px', paddingBottom:'24px'}}>
+    <div style={{ backgroundColor: '#d5cec7', color: '#292b2c', paddingTop: '48px', paddingBottom: '24px' }}>
       <Container>
         <div style={{ display: 'flex', flexDirection: 'row', gap: '24px' }}>
 
@@ -75,7 +98,7 @@ const PromoFooter = () => {
               Suscríbete si quieres mantenerte informado de novedades.
             </div>
             <div>
-              <input class="appearance-none border rounded px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" style={{ padding: '2px', marginTop: '15px', width:'75%' }} />
+              <input class="appearance-none border rounded px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" style={{ padding: '2px', marginTop: '15px', width: '75%' }} />
             </div>
             <div>
               <BlackButton style={{ fontSize: '14', marginTop: '10px', marginBottom: '20px' }}>
@@ -87,9 +110,9 @@ const PromoFooter = () => {
               SIGUENOS EN LAS REDES
             </h4>
             <div style={{ display: 'flex', flexDirection: 'row', gap: '10px' }}>
-              <FontAwesomeIcon size='lg' icon={faWhatsapp} />
-              <FontAwesomeIcon size='lg' icon={faInstagram} />
-              <FontAwesomeIcon size='lg' icon={faFacebook} />
+              <FontAwesomeIcon size='lg' icon={faWhatsapp} onClick={handleWhatsappClick} style={{cursor:'pointer'}} />
+              <FontAwesomeIcon size='lg' icon={faInstagram} onClick={handleInstagramClick} style={{cursor:'pointer'}}/>
+              <FontAwesomeIcon size='lg' icon={faFacebook} onClick={handleFacebookClick} style={{cursor:'pointer'}}/>
             </div>
           </div>
 
@@ -113,7 +136,7 @@ const PromoFooter = () => {
       </Container>
 
       <hr style={{ borderColor: 'black', margin: '16px' }} />
-      <div style={{textAlign:'center'}}>
+      <div style={{ textAlign: 'center' }}>
         <GatsbyImage image={data.promoJson.logo.childImageSharp.gatsbyImageData} alt={'logo'} />
       </div>
     </div>

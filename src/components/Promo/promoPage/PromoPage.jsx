@@ -7,23 +7,27 @@ import PromoContent from "../PromoContent/PromoContent";
 import PromoContact from "../PromoContact/PromoContact";
 import PromoFooter from "../PromoFooter/PromoFooter";
 import PromoCarousel from "../PromoCarousel/PromoCarousel";
-import { BrowserView, MobileView } from 'react-device-detect';
+import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detect';
 import PromoMobilePage from "../../promoMobile/promoMobilePage/PromoMobilePage";
 const PromoPage = ({ product }) => {
   return (
     <Fragment>
+
       <BrowserView>
         <PromoHeader />
         <PromoHero product={product} />
         <PromoSteps />
-        <PromoContent product={product}/>
-        <PromoCarousel product={product}/>
-        <PromoContact product={product}/>
-        <PromoFooter/>
+        <PromoContent product={product} />
+        <PromoCarousel product={product} />
+        <PromoContact product={product} />
+        <PromoFooter />
       </BrowserView>
+
       <MobileView>
-        <PromoMobilePage product={product}/>
+        <PromoMobilePage product={product} />
       </MobileView>
+
+
     </Fragment>
   )
 

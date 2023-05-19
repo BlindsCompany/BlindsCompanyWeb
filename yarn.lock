@@ -8171,7 +8171,7 @@ prompts@^2.4.2:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.6.1, prop-types@^15.7.2, prop-types@^15.8.1:
+prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -8299,11 +8299,6 @@ rc@^1.2.7, rc@^1.2.8, rc@1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-collapse@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.npmjs.org/react-collapse/-/react-collapse-5.1.1.tgz"
-  integrity sha512-k6cd7csF1o9LBhQ4AGBIdxB60SUEUMQDAnL2z1YvYNr9KoKr+nDkhN6FK7uGaBd/rYrYfrMpzpmJEIeHRYogBw==
-
 react-dev-utils@^12.0.1:
   version "12.0.1"
   resolved "https://registry.npmjs.org/react-dev-utils/-/react-dev-utils-12.0.1.tgz"
@@ -8413,6 +8408,14 @@ react-side-effect@^2.1.0:
   version "2.1.2"
   resolved "https://registry.npmjs.org/react-side-effect/-/react-side-effect-2.1.2.tgz"
   integrity sha512-PVjOcvVOyIILrYoyGEpDN3vmYNLdy1CajSFNt4TDsVQC5KpTijDvWVoR+/7Rz2xT978D8/ZtFceXxzsPwZEDvw==
+
+react-smooth-collapse@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.npmjs.org/react-smooth-collapse/-/react-smooth-collapse-2.1.2.tgz"
+  integrity sha512-Wq3NUBisI7Gycj4z7GVGTQyI2bfZSJ1UTSZNzGC3H3hysdRW+uHve3TJyQDFd6gDaXljPQy3u8zNuXZ8NzuptQ==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    prop-types "^15.6.0"
 
 react@*, "react@^15.0.0 || ^16.0.0 || ^17.0.0|| ^18.0.0", "react@^16.3.0 || ^17.0.0 || ^18.0.0", "react@^16.9.0 || ^17.0.0 || ^18.0.0", "react@^16.9.0 || ^17.0.0 || ^18.0.0 || ^0.0.0", "react@>= 0.14.0", react@>=16.3, react@>=16.3.0, react@>=16.8.0, react@0.0.0-experimental-c8b778b7f-20220825, "react@15.x || 16.x || 17.x || 18.x", react@17.0.2:
   version "17.0.2"

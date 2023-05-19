@@ -14,14 +14,6 @@ const PromoContact = ({ product }) => {
       companyLocationLink
       whatsappLink
       officeNumber
-      logo{
-        childImageSharp {
-          gatsbyImageData(width:200)
-        }
-      } 
-      header {
-        items
-      }
     }
   }
 `);
