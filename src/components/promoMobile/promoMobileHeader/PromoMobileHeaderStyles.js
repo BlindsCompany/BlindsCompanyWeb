@@ -9,11 +9,22 @@ export const ItemsContainer = styled.div`
   
 `
 
+export const HeaderItems = styled.div`
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+ 
+  
+`
+
 export const PhoneNumbersContainer = styled.div`
   display:flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
   font-size: 16px;
 `
 
@@ -30,9 +41,12 @@ export const IconText = styled.div`
   }
 `;
 
-export const HeaderItems = styled.div`
+export const HeaderLogoItems = styled.div`
   display:flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  padding: 20px;
   
 `
+

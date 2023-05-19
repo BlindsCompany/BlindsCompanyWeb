@@ -1,13 +1,13 @@
 import React from "react";
-import { Container } from "../SharedStyles";
-import { Card, CreamButton } from "./PromoContactStyles";
-import { BlackButton } from "./PromoContactStyles";
+import { Card, CreamButton } from "./PromoMobileContactStyles";
+import { BlackButton } from "./PromoMobileContactStyles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { useStaticQuery, graphql } from 'gatsby';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
-const PromoContact = ({ product }) => {
+const PromoMobileContact = ({ product }) => {
+
   const data = useStaticQuery(graphql`
   query {
     promoJson {
@@ -45,15 +45,15 @@ const PromoContact = ({ product }) => {
   };
 
   return (
-    <Container style={{ marginTop: '60px', marginBottom: '80px' }}>
-      <div style={{ textAlign: 'center', fontSize: '32px', marginTop: '70px', color: '#292b2c' }}>
+    <div style={{ paddingLeft: '12px', padding: '12px' }}>
+      <div style={{ textAlign: 'center', fontSize: '25px', marginTop: '50px', color: '#292b2c' }}>
         CONTACTANOS
       </div>
 
-      <div style={{ display: 'flex', flexDirection: 'row', gap: '50px', marginTop: '30px' }}>
-        <Card style={{ width: '50%' }}>
-          <h3 style={{ fontSize: '28px', marginBottom: '40px', color: '#292b2c' }}>{product.contactPrompt}</h3>
-          <BlackButton style={{ marginBottom: '30px', marginRight: '24px' }} onClick={handlePhoneClick}>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '50px', marginTop: '30px' }}>
+        <Card style={{textAlign:'center'}}>
+          <h3 style={{ fontSize: '23px', marginBottom: '30px', color: '#292b2c' }}>{product.contactPrompt}</h3>
+          <BlackButton style={{ marginBottom: '30px' }} onClick={handlePhoneClick}>
             <FontAwesomeIcon icon={faPhone} style={{ marginRight: '10px' }} /> 809-535-2954
           </BlackButton>
           <CreamButton style={{ marginBottom: '30px' }} onClick={handleWhatsappClick}>
@@ -61,11 +61,12 @@ const PromoContact = ({ product }) => {
           </CreamButton>
         </Card>
 
-        <Card style={{ width: '50%' }}>
-          <h3 style={{ fontSize: '28px', marginBottom: '40px', color: '#292b2c' }}>QUIERES VER NUESTROS PRODUCTOS?</h3>
+        <Card style={{textAlign:'center'}}>
+          <h3 style={{ fontSize: '23px', marginBottom: '30px', color: '#292b2c' }}>QUIERES VER NUESTROS PRODUCTOS?</h3>
           <p>
             Visitanos para ver telas, mecanismos y productos terminados.
           </p>
+
           <div
             onClick={handleLocationClick}
             style={{
@@ -77,7 +78,7 @@ const PromoContact = ({ product }) => {
               cursor: 'pointer',
               fontWeight: 'bold'
             }}
-            
+
             css={{
               '&:hover': {
                 color: 'black'
@@ -85,14 +86,16 @@ const PromoContact = ({ product }) => {
             }}
           >
             <div>Google Maps</div>
-            <FontAwesomeIcon icon={faChevronRight} style={{fontSize:'smaller'}} />
+            <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 'smaller' }} />
           </div>
 
         </Card>
       </div>
-    </Container>
+
+    </div>
+
   )
 
 }
 
-export default PromoContact
+export default PromoMobileContact
