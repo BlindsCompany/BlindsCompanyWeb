@@ -65,7 +65,8 @@ const PromoMobileFooter = () => {
         <div style={{ display: 'flex', flexDirection: 'column' }}>
 
           <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: '10px', cursor: 'pointer' }} onClick={handleDescriptionCollapse}>
-            <h4 style={{ fontSize: '21x', marginBottom: '0px' }}>
+            
+            <h4 style={{ fontSize: '21px', marginBottom: '0px' }}>
               MEJOR FABRICA, MEJORES PRECIOS
             </h4>
             {
