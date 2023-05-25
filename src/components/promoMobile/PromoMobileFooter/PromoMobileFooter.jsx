@@ -58,13 +58,13 @@ const PromoMobileFooter = () => {
 
 
   return (
-    <div style={{ textAlign: 'center', backgroundColor: '#d5cec7', color: '#292b2c', paddingTop: '48px', paddingBottom: '24px', paddingLeft: '12px', paddingRight: '12px', marginTop: '40px' }}>
+    <div style={{ backgroundColor: '#d5cec7', color: '#292b2c', paddingTop: '48px', paddingBottom: '24px', paddingLeft: '20px', paddingRight: '20px', marginTop: '40px' }}>
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
 
         <div style={{ display: 'flex', flexDirection: 'column' }}>
 
-          <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: '10px', cursor: 'pointer' }} onClick={handleDescriptionCollapse}>
+          <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '10px', cursor: 'pointer' }} onClick={handleDescriptionCollapse}>
             
             <h4 style={{ fontSize: '21px', marginBottom: '0px' }}>
               MEJOR FABRICA, MEJORES PRECIOS
@@ -90,7 +90,7 @@ const PromoMobileFooter = () => {
 
         <div style={{ display: 'flex', flexDirection: 'column', fontSize: '18px' }}>
 
-          <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: '10px', cursor: 'pointer' }} onClick={handleProductsCollapse}>
+          <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '10px', cursor: 'pointer' }} onClick={handleProductsCollapse}>
             <h4 style={{ fontSize: '21px', marginBottom: '0px' }}>
               PRODUCTOS
             </h4>
@@ -149,7 +149,7 @@ const PromoMobileFooter = () => {
           <h4 style={{ fontSize: '21px', marginBottom: '10px', marginTop: '15px' }}>
             SIGUENOS EN LAS REDES
           </h4>
-          <div style={{ display: 'flex', flexDirection: 'row', gap: '10px', justifyContent: 'center' }}>
+          <div style={{ display: 'flex', flexDirection: 'row', gap: '10px' }}>
             <FontAwesomeIcon size='lg' icon={faWhatsapp} onClick={handleWhatsappClick} />
             <FontAwesomeIcon size='lg' icon={faInstagram} onClick={handleInstagramClick}/>
             <FontAwesomeIcon size='lg' icon={faFacebook} onClick={handleFacebookClick}/>
@@ -176,7 +176,7 @@ const PromoMobileFooter = () => {
 
 
       <hr style={{ borderColor: 'black', marginTop: '30px', marginBottom: '26px' }} />
-      <div style={{ textAlign: 'center' }}>
+      <div style={{textAlign:'center'}}>
         <GatsbyImage image={data.promoJson.logo.childImageSharp.gatsbyImageData} alt={'logo'} />
       </div>
     </div>

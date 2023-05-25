@@ -1,33 +1,36 @@
-import React from "react";
-import PromoHeader from "../promoHeader/PromoHeader";
-import { Fragment } from "react";
-import PromoHero from "../promoHero/PromoHero";
-import PromoSteps from "../promoSteps/PromoSteps";
-import PromoContent from "../PromoContent/PromoContent";
-import PromoContact from "../PromoContact/PromoContact";
-import PromoFooter from "../PromoFooter/PromoFooter";
-import PromoCarousel from "../PromoCarousel/PromoCarousel";
-import PromoMobilePage from "../../promoMobile/promoMobilePage/PromoMobilePage";
-
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import PromoHeader from '../promoHeader/PromoHeader';
+import { Fragment } from 'react';
+import PromoHero from '../promoHero/PromoHero';
+import PromoSteps from '../promoSteps/PromoSteps';
+import PromoContent from '../PromoContent/PromoContent';
+import PromoContact from '../PromoContact/PromoContact';
+import PromoFooter from '../PromoFooter/PromoFooter';
+import PromoCarousel from '../PromoCarousel/PromoCarousel';
+import PromoMobilePage from '../../promoMobile/promoMobilePage/PromoMobilePage';
 
 const PromoPage = ({ product }) => {
   const [isMobile, setIsMobile] = useState(false);
 
-
   useEffect(() => {
-    const userAgent = window.navigator.userAgent;
-    setIsMobile(/Mobi|Android/i.test(userAgent));
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < window.innerHeight);
+    };
+
+    handleResize(); // Set initial value
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   return (
-
     <Fragment>
-
-      {isMobile ? 
+      {isMobile ? (
         <PromoMobilePage product={product} />
-      : 
-      <Fragment>
+      ) : (
+        <Fragment>
           <PromoHeader />
           <PromoHero product={product} />
           <PromoSteps />
@@ -36,12 +39,9 @@ const PromoPage = ({ product }) => {
           <PromoContact product={product} />
           <PromoFooter />
         </Fragment>
-      }
-
-
+      )}
     </Fragment>
-  )
-
-}
+  );
+};
 
 export default PromoPage;
