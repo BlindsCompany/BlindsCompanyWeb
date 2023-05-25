@@ -1,0 +1,269 @@
+{
+  "logo":"../../images/promo/logo2.png",
+  "companyLocationLink":"https://www.google.com/maps/place/Blinds+Company/@18.4582739,-69.9718827,17z/data=!3m1!4b1!4m6!3m5!1s0x8ea5617dcd59cd59:0x5ae365768501717c!8m2!3d18.4582739!4d-69.9718827!16s%2Fg%2F11q1h72k94?hl=en-DO",
+  "whatsappLink":"https://wa.me/18299040007",
+  "officeNumber":"8095352954",
+  "facebookLink":"https://www.facebook.com/BlindsCompanyRD/",
+  "instagramLink":"https://www.instagram.com/blindscompanyrd/",
+  "header":{
+    "items":[
+      "Empates Termo-soldados",
+      "Instalación con Hilti",
+      "Corte Ultrasónico",
+      "Máquina de medida milimétrica",
+      "Componentes Modulares",
+      "Productos Holandeses"
+    ] 
+  },
+
+  "steps":[
+    {
+      "image":"../../images/promo/stepIcons/phone.png",
+      "title":"1. CONTÁCTANOS",
+      "description":"Llamanos, escríbenos via mail o whatsapp y te asesoraremos en el proceso."
+    },
+    {
+      "image":"../../images/promo/stepIcons/pencil.png",
+      "title":"2. COTIZA TUS MEDIDAS",
+      "description":"Proporcione tus medidas o agendemos una visita para medir y cotizar tus medidas."
+    },
+    {
+      "image":"../../images/promo/stepIcons/puzzle.png",
+      "title":"3. FABRICACIÓN",
+      "description":"De aprobar el presupuesto, fabricamos tus productos dentro de 5 a 7 dias laborales."
+    },
+    {
+      "image":"../../images/promo/stepIcons/tools.png",
+      "title":"4. INSTALACIÓN",
+      "description":"Instalaremos tus productos pendientes a cada detalle, en perfecto orden y limpieza"
+    }
+  ],
+
+
+  "products":{
+
+    "zebra":{
+      "heroTitle":"CORTINAS ZEBRA",
+      "heroBanner":"../../images/promo/zebra/banner.jpg",
+      "contactPrompt":"¿QUIERES COMPRAR CORTINAS ZEBRA?",
+      "content":[
+        {
+          "image":"../../images/promo/zebra/content/1.jpg",
+          "title":"CREA PRIVACIDAD Y LUZ DESEADA",
+          "description":"Crea cualquier luz, vista y privacidad que desees con las cortinas zebra. Gracias al tejido de doble capa con rayas transparentes y no transparentes puede inclinar sus persianas en cualquier ángulo para personalizar su nivel de privacidad y control de la luz. las cortinas zebra están disponibles en docenas de opciones de filtrado de luz y oscurecimiento (black out)."
+        },
+        {
+          "image":"../../images/promo/zebra/content/2.jpg",
+          "title":"CORTINAS ZEBRAS TRASLÚCIDAS",
+          "description":"A pesar de no tener las franjas con el sistema black out, las cortinas zebras translucidas no son inferiores ya que manejan bien el control de luz y privacidad mas dan un toque unico y elegante. Son mas populares por la forma en que difunden la luz y sus variedades en cuanto a estilo"
+        },
+        {
+          "image":"../../images/promo/zebra/content/3.jpg",
+          "title":"CORTINAS ZEBRAS BLACK OUT",
+          "description":"Las bandas cerradas son mas opacas con el sistema blackout y son mas anchas que las transparentes para lograr un mejor control de la luz. Sin embargo, dado que las pantallas de cebra están hechas con franjas translúcidas alternas, no permitirán un bloqueo total de la luz."
+        }
+      ],
+
+      "gallery":[
+        {
+          "path":"../../images/promo/zebra/gallery/1.jpg"     
+        },
+        {
+          "path":"../../images/promo/zebra/gallery/2.jpg"     
+        },
+        {
+          "path":"../../images/promo/zebra/gallery/3.jpg"     
+        }
+      ]
+    },
+    "enrollables":{
+      "heroTitle":"CORTINAS ENROLLABLES",
+      "heroBanner":"../../images/promo/enrollables/banner.jpg",
+      "contactPrompt":"QUIERES COMPRAR CORTINAS ENROLLABLES?",
+      "content":[
+        {
+          "image":"../../images/promo/enrollables/content/1.jpg",
+          "title":"FAVORITA MUNDIAL DE TODOS LOS TIEMPOS",
+          "description":"Con sus infinitas posibilidades en cuanto a estilo y funcionalidad, las cortinas roller son el producto de sombreado más popular del mundo. Las cortinas enrollables, también conocidas como cortinas roller, tienen componentes modulares diseñados para ofrecer una excelente óptica y un manejo fácil. Esto hace que este sistema sea el más popular y práctico en cualquier espacio."
+        },
+        {
+          "image":"../../images/promo/enrollables/content/2.jpg",
+          "title":"CORTINA ENROLLABLE TRANSLUCIDA",
+          "description":"Una cortina enrollable traslúcida, cuando está cerrada, difunde suavemente la luz por toda la habitación, proporcionando un brillo suave y cálido. Para encontrar el equilibrio entre la visibilidad y el bloqueo de la luz, debemos basarnos en el porcentaje de apertura de la tela, también conocido como opacidad. Este porcentaje se refiere a la cantidad de luz que deja pasar la cortina. Cuanto menor sea el porcentaje, más luz bloqueará la cortina y menos visibilidad ofrecerá. Las opciones oscilan entre el 1%, 3%, 5% y 10%, siendo el 5% la elección más popular de los clientes para cortinas enrollables en Santo Domingo."
+        },
+        {
+          "image":"../../images/promo/enrollables/content/3.jpg",
+          "title":"CORTINAS ENROLLABLES BLACK OUT",
+          "description":"Para lograr una oscuridad total, necesitarás una cortina enrollable tipo blackout hecha de capas de vinilo y fibra de vidrio, las cuales bloquean por completo la entrada de luz. Estas cortinas son ideales para salas multimedia, estudios, dormitorios u otras áreas donde se desea una oscuridad total."
+        }
+      ],
+      "gallery":[
+        {
+          "path":"../../images/promo/enrollables/gallery/1.jpg"     
+        },
+        {
+          "path":"../../images/promo/enrollables/gallery/2.jpg"     
+        },
+        {
+          "path":"../../images/promo/enrollables/gallery/3.jpg"     
+        }
+      ]
+    },
+
+    "malla":{
+      "heroTitle":"MALLAS DE SEGURIDAD",
+      "heroBanner":"../../images/promo/malla/banner.jpg",
+      "contactPrompt":"¿QUIERES COMPRAR MALLAS DE SEGURIDAD?",
+      "content":[
+        {
+          "image":"../../images/promo/malla/content/1.jpg",
+          "title":"HAZ TU ESPACIO MÁS SEGURO SIN OBSTRUIR TU VISTA",
+          "description":"¿Tienes niños o mascotas? Los beneficios de las mallas de seguridad son infinitos, evita que los niños o mascotas caigan o incluso que arrojen juguetes u otros objetos que podrían causar daños a un tercero y resiste hasta 240 libras, sin embargo, los hilos de monofilamento de nylon no afectan tu fachada al ser prácticamente invisible. Ideales para ventanas, balcones, escaleras y terraza."
+        },
+        {
+          "image":"../../images/promo/malla/content/2.jpg",
+          "title":"VENTAJAS DE LAS MALLAS DE SEGURIDAD",
+          "description":"<ul><li>• Seguridad para niños: Las redes a prueba de niños brindan tranquilidad a los adultos mientras que los niños permanecen libres de cuidados.</li><li>• Seguridad para mascotas: Aseguran los espacios abiertos que representen una amenaza para sus mascotas.</li><li>• No distorsiona la vista: Nuestras redes no perturban la agradable apariencia de tu vista.</li><li>• Control de plaga: Una solución limpia y eficaz para eliminar las palomas de su hogar u oficina.</li></ul>"
+        }
+      ],
+
+      "gallery":[
+        {
+          "path":"../../images/promo/malla/gallery/1.jpg"     
+        },
+        {
+          "path":"../../images/promo/malla/gallery/2.jpg"     
+        },
+        {
+          "path":"../../images/promo/malla/gallery/3.jpg"     
+        }
+      ]
+
+    },
+    "permas":{
+      "heroTitle":"PERMAS",
+      "heroBanner":"../../images/promo/permas/banner.jpg",
+      "contactPrompt":"¿QUIERES COMPRAR PERMAS?",
+      "content":[
+        {
+          "image":"../../images/promo/permas/content/1.jpg",
+          "title":"CONVIERTE TUS ÁREAS EXTERIORES TAN CÓMODAS COMO TU HOGAR",
+          "description":"La adición de cortinas no solo agrega un hermoso elemento de diseño, sino que también hacen los patios, terrazas gazebos y balcones más habitables y acogedores mientras dispersa el calor y controla los insectos. La privacidad contra vecinos curiosos, la protección contra el viento y el polvo, el bloqueo de los dañinos rayos UV, la protección contra la lluvia y el bajo mantenimiento por su fácil cuidado hacen que las cortinas permas en santo domingo sean tan populares."
+        },
+        {
+          "image":"../../images/promo/permas/content/2.jpg",
+          "title":"TIPOS DE CORTINAS PERMAS",
+          "description":"<ul><li>Cortina Perma con guías: Utiliza guías de acero para mantener la tensión de la tela a diferentes alturas y hace su funcionamiento más cómodo al no tener que engancharlas al piso o pared</li><li>Cortina Perma con Ganchos: Las permas con gancho son muy resistentes a los fuertes vientos una vez enganchada, sin embargo, no se pueden dejar semiabiertas ya que la brisa las mueve y puede golpear algo o alguien</li></ul><p>Ambas con mecanismos robustos y sistema de accionamiento (manivela o motorizado).</p>"
+        }
+      ],
+
+      "gallery":[
+        {
+          "path":"../../images/promo/permas/gallery/1.jpg"     
+        },
+        {
+          "path":"../../images/promo/permas/gallery/2.jpg"     
+        },
+        {
+          "path":"../../images/promo/permas/gallery/3.jpg"     
+        }
+      ]
+    },
+    "toldo":{
+      "heroTitle":"TOLDO RETRACTIL",
+      "heroBanner":"../../images/promo/toldo/banner.jpg",
+      "contactPrompt":"¿QUIERES COMPRAR TOLDOS?",
+      "content":[
+        {
+          "image":"../../images/promo/toldo/content/1.jpg",
+          "title":"EXTIENDE TU ESPACIO DE CONFORT",
+          "description":"<p>La instalación de un toldo retráctil proporciona la sombra y el aspecto para mantener tu espacio exterior más cómodo para disfrutar mientras protegen de los rayos UV y brindan confort térmico. No tener toldo retráctil puede hacer de una terraza o un patio completamente inutilizables, pero a veces también solo quieres dejar entrar el sol. Ahí es donde brilla el toldo retráctil: cuando no los necesites, simplemente guárdalos. <br/><br/> La temperatura y los repentinos cambios climáticos hacen que los toldos en santo domingo sean tan populares.</p>"
+        },
+        {
+          "image":"../../images/promo/toldo/content/2.jpg",
+          "title":"TOLDO MODERNO RETRÁCTIL",
+          "description":"Inclina desde 0° a 90° con una salida de hasta 3.60m. Crean ambientes llenos de personalidad, con posibilidades de automatización y sensores de sol y viento para una automatización perfecta. Además, los toldos retráctiles no interrumpirán el diseño de su espacio al aire libre. Cuando se extiende, es una adición atractiva. Cuando no está en uso, el toldo se oculta en una forma elegante."
+        },
+        {
+          "image":"../../images/promo/toldo/content/3.jpg",
+          "title":"TOLDO TRADICIONAL RETRÁCTIL",
+          "description":"Gracias a la forma de su brazo puede modificar el ángulo de inclinación hasta una posición muy cercana a la verticalidad total. Por lo que los hacen llamar los toldos para ventanas y se adapta particularmente bien entre paredes. Con la posibilidad de adaptar un cofre en la parte superior para una mejor estética y protección de la tela. "
+        }
+      ],
+
+      "gallery":[
+        {
+          "path":"../../images/promo/toldo/gallery/1.jpg"     
+        },
+        {
+          "path":"../../images/promo/toldo/gallery/2.jpg"     
+        },
+        {
+          "path":"../../images/promo/toldo/gallery/3.jpg"     
+        }
+      ]
+    },
+    "shutters":{
+      "heroTitle":"SHUTTER",
+      "heroBanner":"../../images/promo/shutters/banner.jpg",
+      "contactPrompt":"¿QUIERES COMPRAR SHUTTERS?",
+      "content":[
+        {
+          "image":"../../images/promo/shutters/content/1.jpg",
+          "title":"SEGURIDAD SIN MOLESTIA",
+          "description":"Confort acústico, confort térmico, seguridad antibandalo y ciclónica. Los shutters son una de las inversiones más importantes para garantizar que el interior de un hogar o que un negocio permanezca protegido contra las tormentas destructivas. Por las altas tasas de criminalidad, altos niveles de decibeles y temporadas ciclónicas es que los shutters en Santo Domingo y Republica Dominicana se han vuelto tan popular. "
+        },
+        {
+          "image":"../../images/promo/shutters/content/2.jpg",
+          "title":"BENEFICIOS EXTRA DE LOS SHUTTERS",
+          "description":"<p>Valoran tu hogar: Cada mejora de su hogar es una inversión, y las mejoras estratégicas pueden generar potencialmente un retorno de la inversión si alguna vez vende su propiedad.<br/> <br/>Pueden reducir el costo del seguro: Todos queremos reducir los costos anuales y la instalación shutters en su propiedad podría ayudar a reducir los gastos de seguro, Esto dependerá de que la compañia y el plan.</p>"
+        },
+        {
+          "image":"../../images/promo/shutters/content/3.jpg",
+          "title":"MÁS BENEFICIOS",
+          "description":"Bajo mantenimiento y fácil uso: Los shutter son un accesorio permanente en el hogar por su larga vida útil y ofrecen facilidad de operación y protección."
+        }
+      ],
+
+      "gallery":[
+        {
+          "path":"../../images/promo/shutters/gallery/1.jpg"     
+        },
+        {
+          "path":"../../images/promo/shutters/gallery/2.jpg"     
+        }
+      ]
+
+    },
+    "palilleria":{
+      "heroTitle":"PALILLERIA",
+      "heroBanner":"../../images/promo/palilleria/banner.jpg",
+      "contactPrompt":"¿QUIERES COMPRAR PALILLERIA?",
+      "content":[
+        {
+          "image":"../../images/promo/palilleria/content/1.jpg",
+          "title":"CREA PRIVACIDAD Y LUZ DESEADA",
+          "description":"En la calurosa Republica Dominicana muchas personas pierden el entusiasmo de pasar tiempo al aire libre porque el calor es demasiado. Los toldos palilleros no solo crean un hermoso refugio protegido del sol, también expande tu espacio útil al aire libre donde las familias y los amigos pueden relajarse y disfrutar. Por esto la palilleria se ha convertido en el compañero perfecto de las terrazas y jardines y la solución contra el sol preferida por los diseñadores."
+        },
+        {
+          "image":"../../images/promo/palilleria/content/2.jpg",
+          "title":"CORTINAS ZEBRAS TRASLÚCIDAS",
+          "description":"Las palillerias constan de tres componentes esenciales: Una estructura de pérgola, tela de lona o screen, y una soga o motor para el manejo. Todos los componentes trabajan juntos para crear un toldo palillero fácil de operar. Las estructuras se adhieren y descansan sobre pisos o paredes exteriores de no tener una estructura previa."
+        }
+      ],
+
+      "gallery":[
+        {
+          "path":"../../images/promo/palilleria/gallery/1.jpg"     
+        },
+        {
+          "path":"../../images/promo/palilleria/gallery/2.jpg"     
+        },
+        {
+          "path":"../../images/promo/palilleria/gallery/3.jpg"     
+        }
+      ]
+    }
+
+  }
+}

@@ -5,10 +5,11 @@ import SupperposedSection from '../components/supperposedSection/SupperposedSect
 import CatalogsSection from '../components/catalogsSection/CatalogsSection';
 import { graphql } from 'gatsby';
 import Seo from '../components/Seo';
+import Layout from '../templates/Layout';
 
 const IndexPage = ({ data }) => {
     return (
-        <>
+        <Layout>
             <Seo />
             <Hero
                 title="VIVE LA BELLEZA"
@@ -24,7 +25,7 @@ const IndexPage = ({ data }) => {
             />
             <SupperposedSection data={data.homepageJson.sideBySide} />
             <CatalogsSection catalogs={data.globalJson.catalogs} />
-        </>
+        </Layout>
     );
 };
 
