@@ -6,6 +6,7 @@ import { faWhatsapp, faInstagram, faFacebook } from "@fortawesome/free-brands-sv
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useStaticQuery, graphql } from 'gatsby';
 import { GatsbyImage } from "gatsby-plugin-image";
+import { navigate } from "gatsby";
 
 const PromoFooter = () => {
 
@@ -124,7 +125,7 @@ const PromoFooter = () => {
               Quieres cotizar, saber más o tienes alguna pregunta?
             </div>
             <div>
-              <BlackButton style={{ fontSize: '14', marginTop: '15px' }}>
+              <BlackButton onClick={() => navigate("/promo-contact")} style={{ fontSize: '14', marginTop: '15px' }}>
                 CONTACTANOS
               </BlackButton>
             </div>

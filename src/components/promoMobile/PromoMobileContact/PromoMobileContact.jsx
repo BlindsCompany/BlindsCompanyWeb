@@ -49,7 +49,7 @@ const PromoMobileContact = ({ product }) => {
             <FontAwesomeIcon icon={faPhone} style={{ marginRight: '10px' }} /> 809-535-2954
           </BlackButton>
           <CreamButton style={{ marginBottom: '30px' }} onClick={handleWhatsappClick}>
-            <FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px' }} /> 829-904-0007
+            <FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px', fontSize:'20px' }} /> 829-904-0007
           </CreamButton>
         </Card>
 

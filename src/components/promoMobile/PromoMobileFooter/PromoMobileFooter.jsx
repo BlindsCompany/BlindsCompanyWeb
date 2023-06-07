@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useStaticQuery, graphql } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import SmoothCollapse from 'react-smooth-collapse';
-
+import { navigate } from "gatsby";
 
 const PromoMobileFooter = () => {
   const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false);
@@ -166,7 +166,7 @@ const PromoMobileFooter = () => {
             Quieres cotizar, saber más o tienes alguna pregunta?
           </div>
           <div>
-            <BlackButton style={{ fontSize: '14px', marginTop: '15px' }}>
+            <BlackButton onClick={() => navigate("/promo-contact")} style={{ fontSize: '14px', marginTop: '15px' }}>
               CONTACTANOS
             </BlackButton>
           </div>
