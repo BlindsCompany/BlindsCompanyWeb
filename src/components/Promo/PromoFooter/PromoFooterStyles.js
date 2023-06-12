@@ -1,5 +1,13 @@
 import styled from '@emotion/styled'
 
+import { Link } from "gatsby"
+
+
+export const FooterLink = styled(Link)`
+  &:hover {
+      font-weight: bold;
+    }
+`
 
 
 export const BlackButton = styled.button`

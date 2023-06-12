@@ -9,6 +9,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import SmoothCollapse from 'react-smooth-collapse';
 import { navigate } from "gatsby";
+import { Link } from "gatsby";
 
 const PromoMobileFooter = () => {
   const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false);
@@ -65,7 +66,7 @@ const PromoMobileFooter = () => {
         <div style={{ display: 'flex', flexDirection: 'column' }}>
 
           <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '10px', cursor: 'pointer' }} onClick={handleDescriptionCollapse}>
-            
+
             <h4 style={{ fontSize: '21px', marginBottom: '0px' }}>
               MEJOR FABRICA, MEJORES PRECIOS
             </h4>
@@ -103,22 +104,22 @@ const PromoMobileFooter = () => {
 
           <SmoothCollapse expanded={isProductsExpanded}>
             <div>
-              Cortinas
+              <Link to="/productos">Cortinas</Link>
             </div>
             <div>
-              Permas
+              <Link to="/productos/perma">Permas</Link>
             </div>
             <div>
-              Toldos
+              <Link to="/productos">Toldos</Link>
             </div>
             <div>
-              Palilleria
+              <Link to="/productos/palilleria">Palilleria</Link>
             </div>
             <div>
-              Shutters
+              <Link to="/productos/shutters">Shutters</Link>
             </div>
             <div>
-              Mallas de Seguridad
+              <Link to="/productos/mallas-de-seguridad">Mallas de Seguridad</Link>
             </div>
           </SmoothCollapse>
         </div>
@@ -151,8 +152,8 @@ const PromoMobileFooter = () => {
           </h4>
           <div style={{ display: 'flex', flexDirection: 'row', gap: '10px' }}>
             <FontAwesomeIcon size='lg' icon={faWhatsapp} onClick={handleWhatsappClick} />
-            <FontAwesomeIcon size='lg' icon={faInstagram} onClick={handleInstagramClick}/>
-            <FontAwesomeIcon size='lg' icon={faFacebook} onClick={handleFacebookClick}/>
+            <FontAwesomeIcon size='lg' icon={faInstagram} onClick={handleInstagramClick} />
+            <FontAwesomeIcon size='lg' icon={faFacebook} onClick={handleFacebookClick} />
           </div>
         </div>
 
@@ -176,7 +177,7 @@ const PromoMobileFooter = () => {
 
 
       <hr style={{ borderColor: 'black', marginTop: '30px', marginBottom: '26px' }} />
-      <div style={{textAlign:'center'}}>
+      <div style={{ textAlign: 'center' }}>
         <GatsbyImage image={data.promoJson.logo.childImageSharp.gatsbyImageData} alt={'logo'} />
       </div>
     </div>

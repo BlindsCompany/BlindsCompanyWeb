@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useStaticQuery, graphql } from 'gatsby';
 import { GatsbyImage } from "gatsby-plugin-image";
 import { navigate } from "gatsby";
+import { FooterLink } from "./PromoFooterStyles";
 
 const PromoFooter = () => {
 
@@ -65,27 +66,27 @@ const PromoFooter = () => {
 
           </div>
 
-          <div style={{ display: 'flex', flexDirection: 'column', width: '12%', fontSize: '18px' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', width: '12%', fontSize: '17px' }}>
             <h4 style={{ fontSize: '24px', marginBottom: '10px' }}>
               PRODUCTOS
             </h4>
             <div>
-              Cortinas
+              <FooterLink to="/productos">Cortinas</FooterLink>
             </div>
             <div>
-              Permas
+              <FooterLink to="/productos/perma">Permas</FooterLink>
             </div>
             <div>
-              Toldos
+              <FooterLink to="/productos">Toldos</FooterLink>
             </div>
             <div>
-              Palilleria
+              <FooterLink to="/productos/palilleria">Palilleria</FooterLink>
             </div>
             <div>
-              Shutters
+              <FooterLink to="/productos/shutters">Shutters</FooterLink>
             </div>
             <div>
-              Mallas de Seguridad
+              <FooterLink to="/productos/mallas-de-seguridad">Mallas de Seguridad</FooterLink>
             </div>
 
           </div>

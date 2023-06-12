@@ -13,15 +13,17 @@ const PromoPage = ({ product }) => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    const mediaQuery = window.matchMedia('(max-width: 868px)'); // Adjust the breakpoint as needed
+
     const handleResize = () => {
-      setIsMobile(window.innerWidth < window.innerHeight);
+      setIsMobile(mediaQuery.matches);
     };
 
     handleResize(); // Set initial value
 
-    window.addEventListener('resize', handleResize);
+    mediaQuery.addEventListener('change', handleResize);
     return () => {
-      window.removeEventListener('resize', handleResize);
+      mediaQuery.removeEventListener('change', handleResize);
     };
   }, []);
 
