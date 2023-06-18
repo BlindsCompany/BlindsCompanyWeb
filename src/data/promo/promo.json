@@ -1,6 +1,7 @@
 {
   "logo":"../../images/promo/logo2.png",
   "contactBanner":"../../images/promo/bannerContactanos.jpg",
+  "contactBlackoutBanner":"../../images/promo/bgBlackout.png",
   "contactIcons":[
     {
       "name":"TELÉFONO",

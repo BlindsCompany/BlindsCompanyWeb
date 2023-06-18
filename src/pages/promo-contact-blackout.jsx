@@ -4,13 +4,13 @@ import PromoMobileContactPage from '../components/promoMobile/PromoMobileContact
 import { useState, useEffect } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
-const PromoContactUs = () => {
+const PromoContactUsBlackout = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   const data = useStaticQuery(graphql`
     query {
       promoJson {
-        contactBanner {
+        contactBlackoutBanner {
           childImageSharp {
             gatsbyImageData
           }
@@ -38,12 +38,12 @@ const PromoContactUs = () => {
   return (
     <Fragment>
       {isMobile ? (
-        <PromoMobileContactPage bannerText={'CONTÁCTANOS'} bannerGatsbyImageData={data.promoJson.contactBanner.childImageSharp.gatsbyImageData}/>
+        <PromoMobileContactPage bannerText={'CORTINAS ENROLLABLES BLACKOUT'} bannerGatsbyImageData={data.promoJson.contactBlackoutBanner.childImageSharp.gatsbyImageData}/>
       ) : (
-        <PromoContactPage bannerText={'CONTÁCTANOS'} bannerGatsbyImageData={data.promoJson.contactBanner.childImageSharp.gatsbyImageData}/>
+        <PromoContactPage bannerText={'CORTINAS ENROLLABLES BLACKOUT'} bannerGatsbyImageData={data.promoJson.contactBlackoutBanner.childImageSharp.gatsbyImageData}/>
       )}
     </Fragment>
   );
 }
 
-export default PromoContactUs;
+export default PromoContactUsBlackout;

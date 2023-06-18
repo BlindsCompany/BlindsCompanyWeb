@@ -96,11 +96,13 @@ const PromoMobileHeader = () => {
 
 
       <HeaderLogoItems>
+        <FontAwesomeIcon size='lg' icon={faLocationDot} onClick={handleLocationClick} />
+
+
+        <GatsbyImage image={data.promoJson.logo.childImageSharp.gatsbyImageData} alt={'logo'} />
 
         {isExpanded ? <FontAwesomeIcon size='lg' icon={faXmark} onClick={handleCollapse} /> : <FontAwesomeIcon size='lg' icon={faBars} onClick={handleCollapse} />}
-        
-        <GatsbyImage image={data.promoJson.logo.childImageSharp.gatsbyImageData} alt={'logo'} />
-        <FontAwesomeIcon size='lg' icon={faLocationDot} onClick={handleLocationClick} />
+
       </HeaderLogoItems>
 
       <SmoothCollapse expanded={isExpanded}>

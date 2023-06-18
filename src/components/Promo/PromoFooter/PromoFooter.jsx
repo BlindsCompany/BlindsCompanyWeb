@@ -53,20 +53,8 @@ const PromoFooter = () => {
       <Container>
         <div style={{ display: 'flex', flexDirection: 'row', gap: '24px' }}>
 
-          <div style={{ display: 'flex', flexDirection: 'column', width: '33%' }}>
-            <h4 style={{ fontSize: '24px', marginBottom: '10px' }}>
-              MEJOR FABRICA, MEJORES PRECIOS
-            </h4>
-            <div style={{ fontSize: '18px' }}>
-              En nuestra empresa entendemos la importancia de tener una fabricación de calidad.
-              Estamos aquí para proporcionarle eso. Nuestro exclusivo proceso de fabricación incluye una
-              máquina cortadora ultrasónica, bridas termosoldadas y una máquina de control de
-              calidad para garantizar que su producto sea superior desde todos los ángulos.
-            </div>
+          <div style={{ display: 'flex', flexDirection: 'column', width: '15%' }}>
 
-          </div>
-
-          <div style={{ display: 'flex', flexDirection: 'column', width: '12%', fontSize: '17px' }}>
             <h4 style={{ fontSize: '24px', marginBottom: '10px' }}>
               PRODUCTOS
             </h4>
@@ -88,10 +76,21 @@ const PromoFooter = () => {
             <div>
               <FooterLink to="/productos/mallas-de-seguridad">Mallas de Seguridad</FooterLink>
             </div>
+          </div>
+
+          <div style={{ display: 'flex', flexDirection: 'column', width: '28%', fontSize: '17px' }}>
+            <h4 style={{ fontSize: '24px', marginBottom: '10px' }}>
+              SIGUENOS EN LAS REDES
+            </h4>
+            <div style={{ display: 'flex', flexDirection: 'row', gap: '10px' }}>
+              <FontAwesomeIcon size='lg' icon={faWhatsapp} onClick={handleWhatsappClick} style={{ cursor: 'pointer' }} />
+              <FontAwesomeIcon size='lg' icon={faInstagram} onClick={handleInstagramClick} style={{ cursor: 'pointer' }} />
+              <FontAwesomeIcon size='lg' icon={faFacebook} onClick={handleFacebookClick} style={{ cursor: 'pointer' }} />
+            </div>
 
           </div>
 
-          <div style={{ display: 'flex', flexDirection: 'column', width: '25%' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', width: '28%' }}>
             <h4 style={{ fontSize: '24px', marginBottom: '10px' }}>
               NEWSLETTER
             </h4>
@@ -108,17 +107,10 @@ const PromoFooter = () => {
               </BlackButton>
             </div>
 
-            <h4 style={{ fontSize: '24px', marginBottom: '10px' }}>
-              SIGUENOS EN LAS REDES
-            </h4>
-            <div style={{ display: 'flex', flexDirection: 'row', gap: '10px' }}>
-              <FontAwesomeIcon size='lg' icon={faWhatsapp} onClick={handleWhatsappClick} style={{cursor:'pointer'}} />
-              <FontAwesomeIcon size='lg' icon={faInstagram} onClick={handleInstagramClick} style={{cursor:'pointer'}}/>
-              <FontAwesomeIcon size='lg' icon={faFacebook} onClick={handleFacebookClick} style={{cursor:'pointer'}}/>
-            </div>
+
           </div>
 
-          <div style={{ display: 'flex', flexDirection: 'column', width: '25%' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', width: '28%' }}>
             <h4 style={{ fontSize: '24px', marginBottom: '10px' }}>
               CONTACTANOS
             </h4>

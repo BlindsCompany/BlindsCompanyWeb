@@ -8,9 +8,10 @@ import ContactTextField from '../../Promo/PromoContactPage/ContactTextField'
 import ContactTextArea from '../../Promo/PromoContactPage/ContactTextArea';
 import { BlackButton } from "../../Promo/PromoContactPage/PromoContactPageStyles";
 import { useState } from "react";
+import PromoWhatsappAction from "../../Promo/PromoActionButtons/PromoWhatsappAction";
+import PromoPhoneAction from "../../Promo/PromoActionButtons/PromoPhoneAction";
 
-
-const PromoMobileContactPage = () => {
+const PromoMobileContactPage = ({bannerText, bannerGatsbyImageData}) => {
 
   const [formData, setFormData] = useState({
     email: '',
@@ -26,11 +27,6 @@ const PromoMobileContactPage = () => {
   const data = useStaticQuery(graphql`
     query {
       promoJson {
-        contactBanner {
-          childImageSharp {
-            gatsbyImageData
-          }
-        }
         contactIcons {
           name
           icon {
@@ -66,23 +62,25 @@ const PromoMobileContactPage = () => {
 
   return (
     <Fragment>
+        <PromoWhatsappAction/>
+        <PromoPhoneAction/>
       <PromoMobileHeader />
 
       <Container>
         <div style={{ position: 'relative', width: '100%', marginBottom: '30px', }}>
           <GatsbyImage
-            image={data.promoJson.contactBanner.childImageSharp.gatsbyImageData}
+            image={bannerGatsbyImageData}
             style={{ width: '100%', height: '100%' }}
             alt="banner"
           />
           <div style={{ position: 'absolute', bottom: 0, left: 0, padding: '10px' }}>
-            <h2 style={{ fontSize: '60px', color: '#fff' }}>Contáctanos</h2>
+            <h2 style={{ fontSize: '35px', color: '#fff' }}>{bannerText}</h2>
           </div>
         </div>
 
         <div style={{ display: 'flex', flexDirection: 'row', gap: '50px', flexWrap: 'wrap' }}>
 
-          <div style={{ display: 'flex', flexDirection: 'column' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', textAlign:'center' }}>
             <h2 style={{ fontSize: '32px' }}>FELICES DE AYUDARTE</h2>
             <p style={{ fontSize: '18px' }}>
               Elige tus productos y proporciona tus medidas. Al aprobar, rectificamos
@@ -107,7 +105,7 @@ const PromoMobileContactPage = () => {
                         alignItems: 'center',
                         gap: '20px'
                       }}>
-                        <img src={item.icon.publicURL} alt={item.name} style={{ width: "130px" }} />
+                        <img src={item.icon.publicURL} alt={item.name} style={{ width: "80px" }} />
                         <div style={{ fontWeight: 'bold', fontSize: '18px' }}>{item.name}</div>
                       </div>
                     </div>
@@ -121,8 +119,8 @@ const PromoMobileContactPage = () => {
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'column' }}>
-            <h2 style={{ fontSize: '32px' }}>SOLICITA MEDICIÓN PROFESIONAL</h2>
-            <p style={{ fontSize: '18px' }}>
+            <h2 style={{ fontSize: '32px', textAlign:'center' }}>SOLICITA MEDICIÓN PROFESIONAL</h2>
+            <p style={{ fontSize: '18px', textAlign:'center' }}>
               Si no tienes las medidas, completa este formulario y te
               llamaremos para agendar la cita para tus medidas. ¿Las medidas
               son fuera de Santo Domingo? No hay problema, solo un pequeño cargo adicional.
@@ -158,8 +156,8 @@ const PromoMobileContactPage = () => {
 
               <ContactTextArea inputHandler={handleInputChange} tag="Notas - ¿Alguna preferencia en la vía de contacto?" name="notes" />
 
-              <div style={{ display: 'flex', flexDirection: 'row-reverse' }}>
-                <BlackButton onClick={mailButtonHandler}>SOLICITAR MEDIDAS GRATIS</BlackButton>
+              <div style={{ display: 'flex'}}>
+                <BlackButton style={{width:'100%'}} onClick={mailButtonHandler}>SOLICITAR MEDIDAS GRATIS</BlackButton>
               </div>
 
             </div>

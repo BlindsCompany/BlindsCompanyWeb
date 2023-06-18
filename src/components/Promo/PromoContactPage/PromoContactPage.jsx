@@ -8,8 +8,9 @@ import ContactTextField from './ContactTextField';
 import ContactTextArea from './ContactTextArea';
 import { BlackButton } from "./PromoContactPageStyles";
 import { useState } from "react";
+import PromoPhoneAction from "../../Promo/PromoActionButtons/PromoWhatsappAction";
 
-const PromoContactPage = () => {
+const PromoContactPage = ({bannerText, bannerGatsbyImageData}) => {
 
   const [formData, setFormData] = useState({
     email: '',
@@ -25,11 +26,7 @@ const PromoContactPage = () => {
   const data = useStaticQuery(graphql`
     query {
       promoJson {
-        contactBanner {
-          childImageSharp {
-            gatsbyImageData
-          }
-        }
+        
         contactIcons {
           name
           icon {
@@ -65,17 +62,18 @@ const PromoContactPage = () => {
 
   return (
     <Fragment>
+      <PromoPhoneAction/>
       <PromoHeader />
 
       <Container>
         <div style={{ position: 'relative', width: '100%', marginBottom: '30px', }}>
           <GatsbyImage
-            image={data.promoJson.contactBanner.childImageSharp.gatsbyImageData}
+            image={bannerGatsbyImageData}
             style={{ width: '100%', height: '100%' }}
             alt="banner"
           />
           <div style={{ position: 'absolute', bottom: 0, left: 0, padding: '10px' }}>
-            <h2 style={{ fontSize: '60px', color: '#fff' }}>Contáctanos</h2>
+            <h2 style={{ fontSize: '60px', color: '#fff' }}>{bannerText}</h2>
           </div>
         </div>
 
@@ -150,7 +148,7 @@ const PromoContactPage = () => {
                         alignItems: 'center',
                         gap: '20px'
                       }}>
-                        <img src={item.icon.publicURL} alt={item.name} style={{ width: "130px" }} />
+                        <img src={item.icon.publicURL} alt={item.name} style={{ width: "100px" }} />
                         <div style={{ fontWeight: 'bold', fontSize: '18px' }}>{item.name}</div>
                       </div>
                     </div>

@@ -8,12 +8,14 @@ import PromoContact from '../PromoContact/PromoContact';
 import PromoFooter from '../PromoFooter/PromoFooter';
 import PromoCarousel from '../PromoCarousel/PromoCarousel';
 import PromoMobilePage from '../../promoMobile/promoMobilePage/PromoMobilePage';
+import PromoWhatsappAction from '../PromoActionButtons/PromoWhatsappAction';
+import PromoPhoneAction from '../PromoActionButtons/PromoPhoneAction';
 
 const PromoPage = ({ product }) => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width: 868px)'); // Adjust the breakpoint as needed
+    const mediaQuery = window.matchMedia('(max-width: 995px)'); // Adjust the breakpoint as needed
 
     const handleResize = () => {
       setIsMobile(mediaQuery.matches);
@@ -30,9 +32,14 @@ const PromoPage = ({ product }) => {
   return (
     <Fragment>
       {isMobile ? (
-        <PromoMobilePage product={product} />
+        <Fragment>
+          <PromoWhatsappAction/>
+          <PromoPhoneAction/>
+          <PromoMobilePage product={product} />
+        </Fragment>
       ) : (
         <Fragment>
+          <PromoWhatsappAction/>
           <PromoHeader />
           <PromoHero product={product} />
           <PromoSteps />

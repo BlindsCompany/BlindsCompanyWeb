@@ -63,7 +63,7 @@ const PromoMobileFooter = () => {
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
 
-        <div style={{ display: 'flex', flexDirection: 'column' }}>
+        {/* <div style={{ display: 'flex', flexDirection: 'column' }}>
 
           <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '10px', cursor: 'pointer' }} onClick={handleDescriptionCollapse}>
 
@@ -86,7 +86,7 @@ const PromoMobileFooter = () => {
           </SmoothCollapse>
         </div>
 
-        <hr style={{ borderColor: 'black' }} />
+        <hr style={{ borderColor: 'black' }} /> */}
 
 
         <div style={{ display: 'flex', flexDirection: 'column', fontSize: '18px' }}>
