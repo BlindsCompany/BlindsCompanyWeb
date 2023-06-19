@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
 const PromoContactUsBlackout = () => {
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(true);
 
   const data = useStaticQuery(graphql`
     query {

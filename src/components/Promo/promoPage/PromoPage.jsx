@@ -12,7 +12,7 @@ import PromoWhatsappAction from '../PromoActionButtons/PromoWhatsappAction';
 import PromoPhoneAction from '../PromoActionButtons/PromoPhoneAction';
 
 const PromoPage = ({ product }) => {
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(true);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(max-width: 995px)'); // Adjust the breakpoint as needed

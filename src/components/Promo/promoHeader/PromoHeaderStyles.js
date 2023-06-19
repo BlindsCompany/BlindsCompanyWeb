@@ -36,3 +36,20 @@ export const HeaderItems = styled.div`
   justify-content: space-between;
   
 `
+
+export const ContactText = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+`;
+
+
+export const ClickIcon = styled.div`
+
+  cursor: pointer;
+  &:hover {
+    color: black;
+  }
+`;

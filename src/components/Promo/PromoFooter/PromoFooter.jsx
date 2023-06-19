@@ -112,14 +112,14 @@ const PromoFooter = () => {
 
           <div style={{ display: 'flex', flexDirection: 'column', width: '28%' }}>
             <h4 style={{ fontSize: '24px', marginBottom: '10px' }}>
-              CONTACTANOS
+            CONTÁCTANOS
             </h4>
             <div>
               Quieres cotizar, saber más o tienes alguna pregunta?
             </div>
             <div>
               <BlackButton onClick={() => navigate("/promo-contact")} style={{ fontSize: '14', marginTop: '15px' }}>
-                CONTACTANOS
+              CONTÁCTANOS
               </BlackButton>
             </div>
           </div>

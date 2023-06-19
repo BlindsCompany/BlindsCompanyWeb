@@ -63,31 +63,6 @@ const PromoMobileFooter = () => {
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
 
-        {/* <div style={{ display: 'flex', flexDirection: 'column' }}>
-
-          <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '10px', cursor: 'pointer' }} onClick={handleDescriptionCollapse}>
-
-            <h4 style={{ fontSize: '21px', marginBottom: '0px' }}>
-              MEJOR FABRICA, MEJORES PRECIOS
-            </h4>
-            {
-              isDescriptionExpanded ? <FontAwesomeIcon size='lg' icon={faChevronUp} /> :
-                <FontAwesomeIcon size='lg' icon={faChevronDown} />
-            }
-
-          </div>
-          <SmoothCollapse expanded={isDescriptionExpanded}>
-            <div style={{ fontSize: '18px' }}>
-              En nuestra empresa entendemos la importancia de tener una fabricación de calidad.
-              Estamos aquí para proporcionarle eso. Nuestro exclusivo proceso de fabricación incluye una
-              máquina cortadora ultrasónica, bridas termosoldadas y una máquina de control de
-              calidad para garantizar que su producto sea superior desde todos los ángulos.
-            </div>
-          </SmoothCollapse>
-        </div>
-
-        <hr style={{ borderColor: 'black' }} /> */}
-
 
         <div style={{ display: 'flex', flexDirection: 'column', fontSize: '18px' }}>
 
@@ -161,14 +136,14 @@ const PromoMobileFooter = () => {
 
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           <h4 style={{ fontSize: '24px', marginBottom: '10px' }}>
-            CONTACTANOS
+            CONTÁCTANOS
           </h4>
           <div>
             Quieres cotizar, saber más o tienes alguna pregunta?
           </div>
           <div>
             <BlackButton onClick={() => navigate("/promo-contact")} style={{ fontSize: '14px', marginTop: '15px' }}>
-              CONTACTANOS
+              CONTÁCTANOS
             </BlackButton>
           </div>
         </div>

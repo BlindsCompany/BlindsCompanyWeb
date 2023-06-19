@@ -39,7 +39,7 @@ const PromoContact = ({ product }) => {
   return (
     <Container style={{ marginTop: '60px', marginBottom: '80px' }}>
       <div style={{ textAlign: 'center', fontSize: '32px', marginTop: '70px', color: '#292b2c' }}>
-        CONTACTANOS
+      CONTÁCTANOS
       </div>
 
       <div style={{ display: 'flex', flexDirection: 'row', gap: '50px', marginTop: '30px' }}>

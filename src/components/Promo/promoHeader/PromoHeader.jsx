@@ -10,7 +10,9 @@ import {
   HeaderItems,
   ItemsContainer,
   PhoneNumbersContainer,
-  IconText
+  IconText,
+  ContactText,
+  ClickIcon
 } from './PromoHeaderStyles';
 
 import { Container } from '../SharedStyles';
@@ -72,21 +74,24 @@ const PromoHeader = () => {
 
       <Container style={{ padding: '20px' }}>
         <HeaderItems>
-          <PhoneNumbersContainer>
-            <IconText onClick={handlePhoneClick}>
-              <FontAwesomeIcon size='lg' icon={faPhone} />
-              809-535-2954
-            </IconText>
-            <IconText onClick={handleWhatsappClick}>
-              <FontAwesomeIcon size='lg' icon={faWhatsapp} />
-              829-904-0007
-            </IconText>
-          </PhoneNumbersContainer>
-          <GatsbyImage image={data.promoJson.logo.childImageSharp.gatsbyImageData} alt={'logo'} />
           <IconText onClick={handleLocationClick}>
             VISITE NUESTRA TIENDA
-            <FontAwesomeIcon size='lg' icon={faLocationDot} />
+            <FontAwesomeIcon size='mds' icon={faLocationDot} />
           </IconText>
+          <GatsbyImage image={data.promoJson.logo.childImageSharp.gatsbyImageData} alt={'logo'} />
+          <PhoneNumbersContainer>
+            <ContactText>
+              CONTÁCTANOS
+              <ClickIcon>
+                <FontAwesomeIcon onClick={handlePhoneClick} size='md' icon={faPhone} />
+              </ClickIcon>
+              <ClickIcon>
+                <FontAwesomeIcon onClick={handleWhatsappClick} size='lg' icon={faWhatsapp} />
+              </ClickIcon>
+            </ContactText>
+            
+          </PhoneNumbersContainer>
+
         </HeaderItems>
       </Container>
     </Fragment>
