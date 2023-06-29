@@ -4,8 +4,10 @@ import PromoMobileContactPage from '../components/promoMobile/PromoMobileContact
 import { useState, useEffect } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
+const initialValue = window.matchMedia('(max-width: 995px)').matches;
+
 const PromoContactUsBlackout = () => {
-  const [isMobile, setIsMobile] = useState(true);
+  const [isMobile, setIsMobile] = useState(initialValue);
 
   const data = useStaticQuery(graphql`
     query {

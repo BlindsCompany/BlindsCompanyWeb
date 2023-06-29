@@ -75,8 +75,8 @@ const PromoHeader = () => {
       <Container style={{ padding: '20px' }}>
         <HeaderItems>
           <IconText onClick={handleLocationClick}>
+          <FontAwesomeIcon size='mds' icon={faLocationDot} />
             VISITE NUESTRA TIENDA
-            <FontAwesomeIcon size='mds' icon={faLocationDot} />
           </IconText>
           <GatsbyImage image={data.promoJson.logo.childImageSharp.gatsbyImageData} alt={'logo'} />
           <PhoneNumbersContainer>

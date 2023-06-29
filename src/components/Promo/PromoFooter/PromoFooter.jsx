@@ -7,13 +7,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useStaticQuery, graphql } from 'gatsby';
 import { GatsbyImage } from "gatsby-plugin-image";
 import { navigate } from "gatsby";
-import { FooterLink } from "./PromoFooterStyles";
+import { FooterLink, FooterItem } from "./PromoFooterStyles";
 
 const PromoFooter = () => {
 
   const data = useStaticQuery(graphql`
     query {
       promoJson {
+        whatsappDisplayNumber
+        instagramHandle
+        facebookHandle
         whatsappLink
         facebookLink
         instagramLink
@@ -82,10 +85,22 @@ const PromoFooter = () => {
             <h4 style={{ fontSize: '24px', marginBottom: '10px' }}>
               SIGUENOS EN LAS REDES
             </h4>
-            <div style={{ display: 'flex', flexDirection: 'row', gap: '10px' }}>
-              <FontAwesomeIcon size='lg' icon={faWhatsapp} onClick={handleWhatsappClick} style={{ cursor: 'pointer' }} />
-              <FontAwesomeIcon size='lg' icon={faInstagram} onClick={handleInstagramClick} style={{ cursor: 'pointer' }} />
-              <FontAwesomeIcon size='lg' icon={faFacebook} onClick={handleFacebookClick} style={{ cursor: 'pointer' }} />
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+
+              <FooterItem onClick={handleWhatsappClick}>
+                <FontAwesomeIcon size='lg' icon={faWhatsapp} style={{ marginRight:"10px" }} />
+                {data.promoJson.whatsappDisplayNumber}
+              </FooterItem>
+              
+              <FooterItem onClick={handleInstagramClick}>
+                <FontAwesomeIcon size='lg' icon={faInstagram} style={{ marginRight:"10px" }}/>
+                {data.promoJson.instagramHandle}
+              </FooterItem>
+
+              <FooterItem onClick={handleFacebookClick}>
+                <FontAwesomeIcon size='lg' icon={faFacebook} style={{ marginRight:"10px" }}/>
+                {data.promoJson.facebookHandle}
+              </FooterItem>
             </div>
 
           </div>

@@ -22,6 +22,9 @@
   ],
   "companyLocationLink":"https://www.google.com/maps/place/Blinds+Company/@18.4582739,-69.9718827,17z/data=!3m1!4b1!4m6!3m5!1s0x8ea5617dcd59cd59:0x5ae365768501717c!8m2!3d18.4582739!4d-69.9718827!16s%2Fg%2F11q1h72k94?hl=en-DO",
   "whatsappLink":"https://wa.me/18299040007",
+  "whatsappDisplayNumber":"(829) 904-0006",
+  "instagramHandle":"@blindscompanyrd",
+  "facebookHandle":"blindscompanyrd",
   "officeNumber":"8095352954",
   "facebookLink":"https://www.facebook.com/BlindsCompanyRD/",
   "instagramLink":"https://www.instagram.com/blindscompanyrd/",
@@ -63,23 +66,23 @@
   "products":{
 
     "zebra":{
-      "heroTitle":"CORTINAS ZEBRA",
+      "heroTitle":"PERSIANAS ZEBRA",
       "heroBanner":"../../images/promo/zebra/banner.jpg",
-      "contactPrompt":"¿QUIERES COMPRAR CORTINAS ZEBRA?",
+      "contactPrompt":"¿QUIERES COMPRAR PERSIANAS ZEBRA?",
       "content":[
         {
           "image":"../../images/promo/zebra/content/1.jpg",
           "title":"CREA PRIVACIDAD Y LUZ DESEADA",
-          "description":"Crea cualquier luz, vista y privacidad que desees con las cortinas zebra. Gracias al tejido de doble capa con rayas transparentes y no transparentes puede inclinar sus persianas en cualquier ángulo para personalizar su nivel de privacidad y control de la luz. las cortinas zebra están disponibles en docenas de opciones de filtrado de luz y oscurecimiento (black out)."
+          "description":"Crea cualquier luz, vista y privacidad que desees con las persianas zebra. Gracias al tejido de doble capa con rayas transparentes y no transparentes puede inclinar sus persianas en cualquier ángulo para personalizar su nivel de privacidad y control de la luz. las persianas zebra están disponibles en docenas de opciones de filtrado de luz y oscurecimiento (black out)."
         },
         {
           "image":"../../images/promo/zebra/content/2.jpg",
-          "title":"CORTINAS ZEBRAS TRASLÚCIDAS",
-          "description":"A pesar de no tener las franjas con el sistema black out, las cortinas zebras translucidas no son inferiores ya que manejan bien el control de luz y privacidad mas dan un toque unico y elegante. Son mas populares por la forma en que difunden la luz y sus variedades en cuanto a estilo"
+          "title":"PERSIANAS ZEBRAS TRASLÚCIDAS",
+          "description":"A pesar de no tener las franjas con el sistema black out, las persianas zebras translucidas no son inferiores ya que manejan bien el control de luz y privacidad mas dan un toque unico y elegante. Son mas populares por la forma en que difunden la luz y sus variedades en cuanto a estilo"
         },
         {
           "image":"../../images/promo/zebra/content/3.jpg",
-          "title":"CORTINAS ZEBRAS BLACK OUT",
+          "title":"PERSIANAS ZEBRAS BLACK OUT",
           "description":"Las bandas cerradas son mas opacas con el sistema blackout y son mas anchas que las transparentes para lograr un mejor control de la luz. Sin embargo, dado que las pantallas de cebra están hechas con franjas translúcidas alternas, no permitirán un bloqueo total de la luz."
         }
       ],
@@ -97,24 +100,24 @@
       ]
     },
     "enrollables":{
-      "heroTitle":"CORTINAS ENROLLABLES",
+      "heroTitle":"CORTINAS ROLLER & PERSIANAS",
       "heroBanner":"../../images/promo/enrollables/banner.jpg",
-      "contactPrompt":"QUIERES COMPRAR CORTINAS ENROLLABLES?",
+      "contactPrompt":"QUIERES COMPRAR CORTINAS ROLLER & PERSIANAS?",
       "content":[
         {
           "image":"../../images/promo/enrollables/content/1.jpg",
           "title":"FAVORITA MUNDIAL DE TODOS LOS TIEMPOS",
-          "description":"Con sus infinitas posibilidades en cuanto a estilo y funcionalidad, las cortinas roller son el producto de sombreado más popular del mundo. Las cortinas enrollables, también conocidas como cortinas roller, tienen componentes modulares diseñados para ofrecer una excelente óptica y un manejo fácil. Esto hace que este sistema sea el más popular y práctico en cualquier espacio."
+          "description":"Con sus infinitas posibilidades en cuanto a estilo y funcionalidad, las cortinas roller & persianas son el producto de sombreado más popular del mundo. Las cortinas enrollables, también conocidas como cortinas roller & persianas, tienen componentes modulares diseñados para ofrecer una excelente óptica y un manejo fácil. Esto hace que este sistema sea el más popular y práctico en cualquier espacio."
         },
         {
           "image":"../../images/promo/enrollables/content/2.jpg",
-          "title":"CORTINA ENROLLABLE TRANSLUCIDA",
-          "description":"Una cortina enrollable traslúcida, cuando está cerrada, difunde suavemente la luz por toda la habitación, proporcionando un brillo suave y cálido. Para encontrar el equilibrio entre la visibilidad y el bloqueo de la luz, debemos basarnos en el porcentaje de apertura de la tela, también conocido como opacidad. Este porcentaje se refiere a la cantidad de luz que deja pasar la cortina. Cuanto menor sea el porcentaje, más luz bloqueará la cortina y menos visibilidad ofrecerá. Las opciones oscilan entre el 1%, 3%, 5% y 10%, siendo el 5% la elección más popular de los clientes para cortinas enrollables en Santo Domingo."
+          "title":"CORTINAS ROLLER & PERSIANAS TRANSLUCIDAS",
+          "description":"Una cortina roller & persiana traslúcida, cuando está cerrada, difunde suavemente la luz por toda la habitación, proporcionando un brillo suave y cálido. Para encontrar el equilibrio entre la visibilidad y el bloqueo de la luz, debemos basarnos en el porcentaje de apertura de la tela, también conocido como opacidad. Este porcentaje se refiere a la cantidad de luz que deja pasar la cortina. Cuanto menor sea el porcentaje, más luz bloqueará la cortina y menos visibilidad ofrecerá. Las opciones oscilan entre el 1%, 3%, 5% y 10%, siendo el 5% la elección más popular de los clientes para cortinas enrollables en Santo Domingo."
         },
         {
           "image":"../../images/promo/enrollables/content/3.jpg",
-          "title":"CORTINAS ENROLLABLES BLACK OUT",
-          "description":"Para lograr una oscuridad total, necesitarás una cortina enrollable tipo blackout hecha de capas de vinilo y fibra de vidrio, las cuales bloquean por completo la entrada de luz. Estas cortinas son ideales para salas multimedia, estudios, dormitorios u otras áreas donde se desea una oscuridad total."
+          "title":"CORTINAS ROLLER & PERSIANAS BLACK OUT",
+          "description":"Para lograr una oscuridad total, necesitarás una cortina roller & persiana tipo blackout hecha de capas de vinilo y fibra de vidrio, las cuales bloquean por completo la entrada de luz. Estas cortinas son ideales para salas multimedia, estudios, dormitorios u otras áreas donde se desea una oscuridad total."
         }
       ],
       "gallery":[
@@ -133,7 +136,7 @@
     "malla":{
       "heroTitle":"MALLAS DE SEGURIDAD",
       "heroBanner":"../../images/promo/malla/banner.jpg",
-      "contactPrompt":"¿QUIERES COMPRAR MALLAS DE SEGURIDAD?",
+      "contactPrompt":"¿QUIERES COMPRAR MALLAS PROTECTORA & MALLAS DE NYLON?",
       "content":[
         {
           "image":"../../images/promo/malla/content/1.jpg",
@@ -142,7 +145,7 @@
         },
         {
           "image":"../../images/promo/malla/content/2.jpg",
-          "title":"VENTAJAS DE LAS MALLAS DE SEGURIDAD",
+          "title":"VENTAJAS DE LAS MALLAS PROTECTORA & MALLAS DE NYLON",
           "description":"<ul><li>• Seguridad para niños: Las redes a prueba de niños brindan tranquilidad a los adultos mientras que los niños permanecen libres de cuidados.</li><li>• Seguridad para mascotas: Aseguran los espacios abiertos que representen una amenaza para sus mascotas.</li><li>• No distorsiona la vista: Nuestras redes no perturban la agradable apariencia de tu vista.</li><li>• Control de plaga: Una solución limpia y eficaz para eliminar las palomas de su hogar u oficina.</li></ul>"
         }
       ],

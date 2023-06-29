@@ -9,6 +9,13 @@ export const FooterLink = styled(Link)`
     }
 `
 
+export const FooterItem = styled.span`
+  cursor: pointer;
+  &:hover {
+      font-weight: bold;
+    }
+`
+
 
 export const BlackButton = styled.button`
   background-color: black;
