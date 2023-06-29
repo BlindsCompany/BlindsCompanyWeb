@@ -22,6 +22,7 @@ const PromoShutters = () =>{
               }
             }
             title
+            callToAction
             description
           }
           gallery{

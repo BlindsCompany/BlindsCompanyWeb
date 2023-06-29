@@ -22,6 +22,7 @@ const PromoZebra = () =>{
               }
             }
             title
+            callToAction
             description
           }
           gallery{

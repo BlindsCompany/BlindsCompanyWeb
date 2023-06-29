@@ -23,6 +23,7 @@ const PromoEnrollables = () =>{
               }
             }
             title
+            callToAction
             description
           }
           gallery{

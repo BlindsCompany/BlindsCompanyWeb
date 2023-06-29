@@ -3,11 +3,10 @@ import PromoContactPage from '../components/Promo/PromoContactPage/PromoContactP
 import PromoMobileContactPage from '../components/promoMobile/PromoMobileContactPage/PromoMobileContactPage';
 import { useState, useEffect } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-
-const initialValue = window.matchMedia('(max-width: 995px)').matches;
+import MediaQuery from "react-responsive";
 
 const PromoContactUsBlackout = () => {
-  const [isMobile, setIsMobile] = useState(initialValue);
+
 
   const data = useStaticQuery(graphql`
     query {
@@ -21,29 +20,18 @@ const PromoContactUsBlackout = () => {
     }
   `);
 
-  useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width: 995px)'); // Adjust the breakpoint as needed
-
-    const handleResize = () => {
-      setIsMobile(mediaQuery.matches);
-    };
-
-    handleResize(); // Set initial value
-
-    mediaQuery.addEventListener('change', handleResize);
-    return () => {
-      mediaQuery.removeEventListener('change', handleResize);
-    };
-  }, []);
 
 
   return (
     <Fragment>
-      {isMobile ? (
-        <PromoMobileContactPage bannerText={'CORTINAS ENROLLABLES BLACKOUT'} bannerGatsbyImageData={data.promoJson.contactBlackoutBanner.childImageSharp.gatsbyImageData}/>
-      ) : (
-        <PromoContactPage bannerText={'CORTINAS ENROLLABLES BLACKOUT'} bannerGatsbyImageData={data.promoJson.contactBlackoutBanner.childImageSharp.gatsbyImageData}/>
-      )}
+
+      <MediaQuery query="(max-width: 995px)">
+        <PromoMobileContactPage bannerText={'CORTINAS ENROLLABLES BLACKOUT'} bannerGatsbyImageData={data.promoJson.contactBlackoutBanner.childImageSharp.gatsbyImageData} />
+      </MediaQuery>
+
+      <MediaQuery query="(min-width: 996px)">
+      <PromoContactPage bannerText={'CORTINAS ENROLLABLES BLACKOUT'} bannerGatsbyImageData={data.promoJson.contactBlackoutBanner.childImageSharp.gatsbyImageData} />
+      </MediaQuery>
     </Fragment>
   );
 }

@@ -22,6 +22,7 @@ const PromoPalilleria = () =>{
               }
             }
             title
+            callToAction
             description
           }
           gallery{

@@ -22,6 +22,7 @@ const PromoPermas = () =>{
               }
             }
             title
+            callToAction
             description
           }
           gallery{

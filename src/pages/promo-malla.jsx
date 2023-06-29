@@ -23,6 +23,7 @@ const PromoMalla = () =>{
               }
             }
             title
+            callToAction
             description
           }
           gallery{

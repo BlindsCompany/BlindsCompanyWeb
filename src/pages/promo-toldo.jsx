@@ -22,6 +22,7 @@ const PromoToldo = () =>{
               }
             }
             title
+            callToAction
             description
           }
           gallery{

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import PromoHeader from '../promoHeader/PromoHeader';
 import { Fragment } from 'react';
 import PromoHero from '../promoHero/PromoHero';
@@ -10,38 +10,23 @@ import PromoCarousel from '../PromoCarousel/PromoCarousel';
 import PromoMobilePage from '../../promoMobile/promoMobilePage/PromoMobilePage';
 import PromoWhatsappAction from '../PromoActionButtons/PromoWhatsappAction';
 import PromoPhoneAction from '../PromoActionButtons/PromoPhoneAction';
-
-const initialValue = window.matchMedia('(max-width: 995px)').matches;
+import MediaQuery from "react-responsive";
 
 const PromoPage = ({ product }) => {
-  const [isMobile, setIsMobile] = useState(initialValue);
-
-  useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width: 995px)'); // Adjust the breakpoint as needed
-
-    const handleResize = () => {
-      setIsMobile(mediaQuery.matches);
-    };
-
-    handleResize(); // Set initial value
-
-    mediaQuery.addEventListener('change', handleResize);
-    return () => {
-      mediaQuery.removeEventListener('change', handleResize);
-    };
-  }, []);
 
   return (
     <Fragment>
-      {isMobile ? (
+      <MediaQuery query="(max-width: 995px)">
         <Fragment>
-          <PromoWhatsappAction/>
-          <PromoPhoneAction/>
+          <PromoWhatsappAction />
+          <PromoPhoneAction />
           <PromoMobilePage product={product} />
         </Fragment>
-      ) : (
+      </MediaQuery>
+
+      <MediaQuery query="(min-width: 996px)">
         <Fragment>
-          <PromoWhatsappAction/>
+          <PromoWhatsappAction />
           <PromoHeader />
           <PromoHero product={product} />
           <PromoSteps />
@@ -50,8 +35,9 @@ const PromoPage = ({ product }) => {
           <PromoContact product={product} />
           <PromoFooter />
         </Fragment>
-      )}
-    </Fragment>
+      </MediaQuery>
+
+    </Fragment >
   );
 };
 
