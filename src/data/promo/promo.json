@@ -103,27 +103,64 @@
       ]
     },
     "enrollables":{
-      "heroTitle":"CORTINAS ROLLER & PERSIANAS",
+      "heroTitle":"CORTINAS ROLLER",
       "heroBanner":"../../images/promo/enrollables/banner.jpg",
-      "contactPrompt":"QUIERES COMPRAR CORTINAS ROLLER & PERSIANAS?",
+      "contactPrompt":"QUIERES COMPRAR CORTINAS ROLLER?",
       "content":[
         {
           "image":"../../images/promo/enrollables/content/1.jpg",
           "title":"FAVORITA MUNDIAL DE TODOS LOS TIEMPOS",
           "callToAction":"",
-          "description":"Con sus infinitas posibilidades en cuanto a estilo y funcionalidad, las cortinas roller & persianas son el producto de sombreado más popular del mundo. Las cortinas enrollables, también conocidas como cortinas roller & persianas, tienen componentes modulares diseñados para ofrecer una excelente óptica y un manejo fácil. Esto hace que este sistema sea el más popular y práctico en cualquier espacio."
+          "description":"Con sus infinitas posibilidades en cuanto a estilo y funcionalidad, las cortinas roller son el producto de sombreado más popular del mundo. Las cortinas enrollables, también conocidas como cortinas roller & persianas, tienen componentes modulares diseñados para ofrecer una excelente óptica y un manejo fácil. Esto hace que este sistema sea el más popular y práctico en cualquier espacio."
         },
         {
           "image":"../../images/promo/enrollables/content/2.jpg",
-          "title":"CORTINAS ROLLER & PERSIANAS TRANSLUCIDAS",
-          "callToAction":"Más sobre cortinas enrollables translúcida",
-          "description":"Una cortina roller & persiana traslúcida, cuando está cerrada, difunde suavemente la luz por toda la habitación, proporcionando un brillo suave y cálido. Para encontrar el equilibrio entre la visibilidad y el bloqueo de la luz, debemos basarnos en el porcentaje de apertura de la tela, también conocido como opacidad. Este porcentaje se refiere a la cantidad de luz que deja pasar la cortina. Cuanto menor sea el porcentaje, más luz bloqueará la cortina y menos visibilidad ofrecerá. Las opciones oscilan entre el 1%, 3%, 5% y 10%, siendo el 5% la elección más popular de los clientes para cortinas enrollables en Santo Domingo."
+          "title":"CORTINAS ROLLER TRANSLUCIDAS",
+          "callToAction":"Más sobre cortinas roller translúcida",
+          "description":"Una cortina roller traslúcida, cuando está cerrada, difunde suavemente la luz por toda la habitación, proporcionando un brillo suave y cálido. Para encontrar el equilibrio entre la visibilidad y el bloqueo de la luz, debemos basarnos en el porcentaje de apertura de la tela, también conocido como opacidad. Este porcentaje se refiere a la cantidad de luz que deja pasar la cortina. Cuanto menor sea el porcentaje, más luz bloqueará la cortina y menos visibilidad ofrecerá. Las opciones oscilan entre el 1%, 3%, 5% y 10%, siendo el 5% la elección más popular de los clientes para cortinas enrollables en Santo Domingo."
         },
         {
           "image":"../../images/promo/enrollables/content/3.jpg",
-          "title":"CORTINAS ROLLER & PERSIANAS BLACK OUT",
-          "callToAction":"Más sobre cortinas enrollables blackout",
-          "description":"Para lograr una oscuridad total, necesitarás una cortina roller & persiana tipo blackout hecha de capas de vinilo y fibra de vidrio, las cuales bloquean por completo la entrada de luz. Estas cortinas son ideales para salas multimedia, estudios, dormitorios u otras áreas donde se desea una oscuridad total."
+          "title":"CORTINAS ROLLER BLACK OUT",
+          "callToAction":"Más sobre cortinas roller blackout",
+          "description":"Para lograr una oscuridad total, necesitarás una cortina roller tipo blackout hecha de capas de vinilo y fibra de vidrio, las cuales bloquean por completo la entrada de luz. Estas cortinas son ideales para salas multimedia, estudios, dormitorios u otras áreas donde se desea una oscuridad total."
+        }
+      ],
+      "gallery":[
+        {
+          "path":"../../images/promo/enrollables/gallery/1.jpg"     
+        },
+        {
+          "path":"../../images/promo/enrollables/gallery/2.jpg"     
+        },
+        {
+          "path":"../../images/promo/enrollables/gallery/3.jpg"     
+        }
+      ]
+    },
+
+    "persianas":{
+      "heroTitle":"PERSIANAS",
+      "heroBanner":"../../images/promo/enrollables/banner.jpg",
+      "contactPrompt":"QUIERES COMPRAR PERSIANAS?",
+      "content":[
+        {
+          "image":"../../images/promo/enrollables/content/1.jpg",
+          "title":"FAVORITA MUNDIAL DE TODOS LOS TIEMPOS",
+          "callToAction":"",
+          "description":"Con sus infinitas posibilidades en cuanto a estilo y funcionalidad, las persianas son el producto de sombreado más popular del mundo. Las persianas tienen componentes modulares diseñados para ofrecer una excelente óptica y un manejo fácil. Esto hace que este sistema sea el más popular y práctico en cualquier espacio."
+        },
+        {
+          "image":"../../images/promo/enrollables/content/2.jpg",
+          "title":"PERSIANAS TRANSLUCIDAS",
+          "callToAction":"Más sobre persianas translúcida",
+          "description":"Una persiana traslúcida, cuando está cerrada, difunde suavemente la luz por toda la habitación, proporcionando un brillo suave y cálido. Para encontrar el equilibrio entre la visibilidad y el bloqueo de la luz, debemos basarnos en el porcentaje de apertura de la tela, también conocido como opacidad. Este porcentaje se refiere a la cantidad de luz que deja pasar la cortina. Cuanto menor sea el porcentaje, más luz bloqueará la cortina y menos visibilidad ofrecerá. Las opciones oscilan entre el 1%, 3%, 5% y 10%, siendo el 5% la elección más popular de los clientes para cortinas enrollables en Santo Domingo."
+        },
+        {
+          "image":"../../images/promo/enrollables/content/3.jpg",
+          "title":"PERSIANAS BLACK OUT",
+          "callToAction":"Más sobre persianas blackout",
+          "description":"Para lograr una oscuridad total, necesitarás una persiana tipo blackout hecha de capas de vinilo y fibra de vidrio, las cuales bloquean por completo la entrada de luz. Estas cortinas son ideales para salas multimedia, estudios, dormitorios u otras áreas donde se desea una oscuridad total."
         }
       ],
       "gallery":[
@@ -142,7 +179,7 @@
     "malla":{
       "heroTitle":"MALLAS DE SEGURIDAD",
       "heroBanner":"../../images/promo/malla/banner.jpg",
-      "contactPrompt":"¿QUIERES COMPRAR MALLAS PROTECTORA & MALLAS DE NYLON?",
+      "contactPrompt":"¿QUIERES COMPRAR MALLAS PROTECTORA?",
       "content":[
         {
           "image":"../../images/promo/malla/content/1.jpg",
@@ -152,8 +189,40 @@
         },
         {
           "image":"../../images/promo/malla/content/2.jpg",
-          "title":"VENTAJAS DE LAS MALLAS PROTECTORA & MALLAS DE NYLON",
-          "callToAction":"Más sobre persianas mallas protectora & mallas de nylon",
+          "title":"VENTAJAS DE LAS MALLAS PROTECTORA",
+          "callToAction":"Más sobre mallas protectora",
+          "description":"<ul><li>• Seguridad para niños: Las redes a prueba de niños brindan tranquilidad a los adultos mientras que los niños permanecen libres de cuidados.</li><li>• Seguridad para mascotas: Aseguran los espacios abiertos que representen una amenaza para sus mascotas.</li><li>• No distorsiona la vista: Nuestras redes no perturban la agradable apariencia de tu vista.</li><li>• Control de plaga: Una solución limpia y eficaz para eliminar las palomas de su hogar u oficina.</li></ul>"
+        }
+      ],
+
+      "gallery":[
+        {
+          "path":"../../images/promo/malla/gallery/1.jpg"     
+        },
+        {
+          "path":"../../images/promo/malla/gallery/2.jpg"     
+        },
+        {
+          "path":"../../images/promo/malla/gallery/3.jpg"     
+        }
+      ]
+
+    },
+    "mallaNylon":{
+      "heroTitle":"MALLAS DE SEGURIDAD",
+      "heroBanner":"../../images/promo/malla/banner.jpg",
+      "contactPrompt":"¿QUIERES COMPRAR MALLAS DE NYLON?",
+      "content":[
+        {
+          "image":"../../images/promo/malla/content/1.jpg",
+          "title":"HAZ TU ESPACIO MÁS SEGURO SIN OBSTRUIR TU VISTA",
+          "callToAction":"",
+          "description":"¿Tienes niños o mascotas? Los beneficios de las mallas de seguridad son infinitos, evita que los niños o mascotas caigan o incluso que arrojen juguetes u otros objetos que podrían causar daños a un tercero y resiste hasta 240 libras, sin embargo, los hilos de monofilamento de nylon no afectan tu fachada al ser prácticamente invisible. Ideales para ventanas, balcones, escaleras y terraza."
+        },
+        {
+          "image":"../../images/promo/malla/content/2.jpg",
+          "title":"VENTAJAS DE LAS MALLAS DE NYLON",
+          "callToAction":"Más sobre mallas de nylon",
           "description":"<ul><li>• Seguridad para niños: Las redes a prueba de niños brindan tranquilidad a los adultos mientras que los niños permanecen libres de cuidados.</li><li>• Seguridad para mascotas: Aseguran los espacios abiertos que representen una amenaza para sus mascotas.</li><li>• No distorsiona la vista: Nuestras redes no perturban la agradable apariencia de tu vista.</li><li>• Control de plaga: Una solución limpia y eficaz para eliminar las palomas de su hogar u oficina.</li></ul>"
         }
       ],
@@ -185,7 +254,7 @@
         {
           "image":"../../images/promo/permas/content/2.jpg",
           "title":"TIPOS DE CORTINAS PERMAS",
-          "callToAction":"",
+          "callToAction":"Más sobre cortinas permas",
           "description":"<ul><li>Cortina Perma con guías: Utiliza guías de acero para mantener la tensión de la tela a diferentes alturas y hace su funcionamiento más cómodo al no tener que engancharlas al piso o pared</li><li>Cortina Perma con Ganchos: Las permas con gancho son muy resistentes a los fuertes vientos una vez enganchada, sin embargo, no se pueden dejar semiabiertas ya que la brisa las mueve y puede golpear algo o alguien</li></ul><p>Ambas con mecanismos robustos y sistema de accionamiento (manivela o motorizado).</p>"
         }
       ],
@@ -216,13 +285,13 @@
         {
           "image":"../../images/promo/toldo/content/2.jpg",
           "title":"TOLDO MODERNO RETRÁCTIL",
-          "callToAction":"",
+          "callToAction":"Más sobre toldo moderno retráctil",
           "description":"Inclina desde 0° a 90° con una salida de hasta 3.60m. Crean ambientes llenos de personalidad, con posibilidades de automatización y sensores de sol y viento para una automatización perfecta. Además, los toldos retráctiles no interrumpirán el diseño de su espacio al aire libre. Cuando se extiende, es una adición atractiva. Cuando no está en uso, el toldo se oculta en una forma elegante."
         },
         {
           "image":"../../images/promo/toldo/content/3.jpg",
           "title":"TOLDO TRADICIONAL RETRÁCTIL",
-          "callToAction":"",
+          "callToAction":"Más sobre toldo tradicional retráctil",
           "description":"Gracias a la forma de su brazo puede modificar el ángulo de inclinación hasta una posición muy cercana a la verticalidad total. Por lo que los hacen llamar los toldos para ventanas y se adapta particularmente bien entre paredes. Con la posibilidad de adaptar un cofre en la parte superior para una mejor estética y protección de la tela. "
         }
       ],
@@ -253,13 +322,13 @@
         {
           "image":"../../images/promo/shutters/content/2.jpg",
           "title":"BENEFICIOS EXTRA DE LOS SHUTTERS",
-          "callToAction":"",
+          "callToAction":"Más sobre shutters",
           "description":"<p>Valoran tu hogar: Cada mejora de su hogar es una inversión, y las mejoras estratégicas pueden generar potencialmente un retorno de la inversión si alguna vez vende su propiedad.<br/> <br/>Pueden reducir el costo del seguro: Todos queremos reducir los costos anuales y la instalación shutters en su propiedad podría ayudar a reducir los gastos de seguro, Esto dependerá de que la compañia y el plan.</p>"
         },
         {
           "image":"../../images/promo/shutters/content/3.jpg",
           "title":"MÁS BENEFICIOS",
-          "callToAction":"",
+          "callToAction":"Más sobre shutters",
           "description":"Bajo mantenimiento y fácil uso: Los shutter son un accesorio permanente en el hogar por su larga vida útil y ofrecen facilidad de operación y protección."
         }
       ],
@@ -288,7 +357,7 @@
         {
           "image":"../../images/promo/palilleria/content/2.jpg",
           "title":"UN MECANISMO SIMPLE DE MONTAR",
-          "callToAction":"",
+          "callToAction":"Más sobre palillleria",
           "description":"Las palillerias constan de tres componentes esenciales: Una estructura de pérgola, tela de lona o screen, y una soga o motor para el manejo. Todos los componentes trabajan juntos para crear un toldo palillero fácil de operar. Las estructuras se adhieren y descansan sobre pisos o paredes exteriores de no tener una estructura previa."
         }
       ],
